@@ -1,4 +1,4 @@
-h1{
+.title{
     color: rgb(020, 020, 020);
     column-count:auto;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -175,9 +175,26 @@ footer{
     grid-row: 3;      
   }
 .footer{
-    position: absolute; 
+  position: absolute; 
     bottom: 0; 
     left: 0; 
     width: 100%; 
     text-align: center;
+}
+#description{
+  color: whitesmoke;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#survey-form{
+  color: whitesmoke;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display:grid;
+  grid-template-columns:repeat(4, 0.5fr);
+}
+.form-group{
+  color: whitesmoke;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 25px auto 1.25rem auto;
+  padding:0.25rem;
 }
