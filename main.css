@@ -3,7 +3,7 @@
     column-count:auto;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     background-color: #820000;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 40px;
     text-align: left;
     min-height: 50px;
@@ -13,7 +13,7 @@
     column-count:auto;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     background-color: #820000;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 13px;
     text-align: left;
     min-height: 20px;
@@ -39,6 +39,7 @@ button{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-decoration: none;
     display: inline-block;
+    font-weight: lighter;
     text-align: center;
     transition: 0.1s ease-in-out;
     margin: -3px;  
@@ -49,6 +50,7 @@ button:hover{
     border: 1px solid grey;
     cursor: pointer;
     border-style:solid;
+    font-weight: lighter;
 }
 .home-image{
     display:block;
