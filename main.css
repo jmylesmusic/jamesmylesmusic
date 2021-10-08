@@ -29,7 +29,9 @@ body{
 }
 
 button{
-    background-color: #111111;
+  display:grid;
+  grid-column:auto;
+  background-color: #111111;
     color: whitesmoke;
     border: 1px solid #111111;
     font-size: 20px;
@@ -39,6 +41,8 @@ button{
     display: inline-block;
     text-align: center;
     transition: 0.1s ease-in-out;
+    margin: -3px;  
+    
 }
 button:hover{
     background-color:#820000;
