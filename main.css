@@ -1,9 +1,9 @@
 .title{
     color: rgb(020, 020, 020);
     column-count:auto;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #820000;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 40px;
     text-align: left;
     min-height: 50px;
@@ -11,9 +11,9 @@
 .subcaption{
     color: rgb(026, 026, 026);
     column-count:auto;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #820000;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 13px;
     text-align: left;
     min-height: 20px;
@@ -36,7 +36,7 @@ button{
     border: 1px solid #111111;
     font-size: 20px;
     padding: 15px 20px;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     display: inline-block;
     font-weight: lighter;
@@ -73,13 +73,13 @@ a:visited{
 
 p{
     color: whitesmoke;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 50%;
 }
 
 footer{
     color: whitesmoke;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 .headshots{
@@ -104,7 +104,7 @@ footer{
 }
 .perf-list{
     color: whitesmoke;
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 50px;
     font-weight:bolder;
 
@@ -112,7 +112,7 @@ footer{
 .events{
     color: grey;
     font-size: 20px;
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family:'Raleway', sans-serif;
     display:grid;
     grid-template-columns:auto;
     grid-template-rows:auto;
@@ -189,18 +189,18 @@ footer{
 }
 #description{
   color: whitesmoke;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #survey-form{
   color: whitesmoke;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   display:grid;
   grid-template-columns:repeat(4, 0.5fr);
 }
 .form-group{
   color: whitesmoke;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 25px auto 1.25rem auto;
   padding:0.25rem;
 }
