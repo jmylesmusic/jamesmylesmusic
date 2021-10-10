@@ -74,7 +74,9 @@ a:visited{
 p{
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
-    max-width: 50%;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 20%;
 }
 
 footer{
