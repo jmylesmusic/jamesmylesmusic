@@ -27,10 +27,12 @@ h2 {
 body{
     background-color: rgb(026, 026, 026);
 }
-
+.button-grid{
+  display:block;
+  margin-left: 0%;
+  margin-right: 0%;
+}
 button{
-  display:grid;
-  grid-column:auto;
   background-color: #111111;
     color: whitesmoke;
     border: 1px solid #111111;
@@ -205,4 +207,31 @@ footer{
   font-family: 'Raleway', sans-serif;
   margin: 25px auto 1.25rem auto;
   padding:0.25rem;
+}
+
+::placeholder{
+  font-family: 'Raleway', sans-serif;
+  color:rgb(100, 100, 100);
+  font-style:italic;
+}
+#dropdown{
+  font-family: 'Raleway', sans-serif;
+  color:black;
+  font-size:16px;
+  font-style:bolder;
+}
+.form-control{
+  display:block;
+  border-radius: .25rem;
+  border-width: 0px 1px 1px 0px;
+  border-color:black;
+}
+#submit{
+  color:whitesmoke;
+  background: grey;
+  border-radius: .5rem;
+}
+#submit:hover{
+  color:red;
+  background:white;
 }

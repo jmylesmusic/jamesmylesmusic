@@ -10,9 +10,8 @@
     <title>James Myles : Booking & Contact</title>
     <link rel="stylesheet" href="main.css"></link>
 </head>
-<body>
-    <h1 class="title"><strong>James Myles <div class="subcaption"> Saxophonist : Composer : Educator</div></strong><div></div></h1>
-    <h2>
+    <h1 class="title"><strong>James Myles <div class="subcaption"> Saxophonist : Composer : Educator</div></strong></h1>
+    <h2 class="button-grid">
         <a href="index.html"><button>Home</button></a>
         <a href="bio.html"><button>Bio</button></a>
         <a href="headshots.html"><button>Headshots</button></a>
@@ -30,7 +29,7 @@
            name="first name"
            id="name"
            class="form-control"
-           placeholder=" "
+           placeholder="First Name"
            required
            />
            </div>
@@ -41,21 +40,27 @@
             name="last name"
             id="name"
             class="form-control"
-            placeholder=" "
+            placeholder="Last Name"
             required
             />
        </div> 
-       <div class="form-group" style="grid-row:2">
+       <div class="form-group" style="grid-row: 3; grid-column:1 / span 1">
         <label id="name-label" for "email">Email Address: *</label>
         <input 
         type="text"
         name="email"
         id="name"
         class="form-control"
-        placeholder=" "
+        placeholder="Email Address"
         required
         /></div>
        </form>
+       <p style="margin-left:0px">Which best describes the reason for contacting? *</p>
+       <select id="dropdown" name="why" class="form-control" style="min-width: 50%" required >
+    <option disabled selected value>Reason for contacting?</option>
+    <option value="Student">Lesson Inquiry</option>
+    <option value="Performance">Performance Inquiry</option>
+</select>   
        <div class="form-group">
            <label class="container">Would you like to recieve newsletters?</label>
            <input 
@@ -69,6 +74,13 @@
            id="description"
            >No
        </div>
+       </div>
+<div>
+    <button id="submit">
+        Submit
+    </button>
+
+</div>
     </body>
     <div class="footer"></div>
     <footer>Copyright Ⓒ 2021 by James Myles Music. All Rights Reserved.</footer>
