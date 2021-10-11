@@ -284,9 +284,17 @@ figure{
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    border-width: 25px;
-    border-color:white;
-}
+    float: right;
+    width: 40%;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    background: black;
+
+  }
 #bio-img{
   display:block;
   width: 70%;  
