@@ -218,6 +218,11 @@ footer{
   margin: 25px auto 1.25rem auto;
   padding:0.25rem;
 }
+#form-button{
+  color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 ::placeholder{
   font-family: 'Raleway', sans-serif;
