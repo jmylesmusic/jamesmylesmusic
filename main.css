@@ -36,8 +36,13 @@ h2 {
 }
 #list{
   font-family: 'Raleway', sans-serif;
-  margin-left: 40px;
+  color: whitesmoke;
+  margin-left: 20px;
   margin-top: 5px;
+  text-align:justify;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 body{
     background-color: rgb(026, 026, 026);
