@@ -210,12 +210,12 @@ footer{
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
   display:grid;
-  grid-template-columns:repeat(4, 0.5fr);
+  grid-template-columns:repeat(2, 1fr);
 }
 .form-group{
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
-  margin: 25px auto 1.25rem auto;
+  margin: 25px 1fr 1fr auto;
   padding:0.25rem;
 }
 #form-button{
