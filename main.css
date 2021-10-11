@@ -278,7 +278,7 @@ footer{
 
 #bio-img{
   display:block;
-  block-style: center;
+  text-align:center;
   width: 70%;  
   height: auto;
   margin-left:100px;
