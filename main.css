@@ -318,9 +318,11 @@ figure{
   margin-right: 0%;
 }
 .thanks{
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
   display:block;
-  font-size:50px;
-  text-align:fill;
+  font-size:5ex;
+  text-align:justify;
   margin-left: 10%;
   margin-right: 10%;
 }
