@@ -254,9 +254,8 @@ footer{
 .list-head{
   font-family: 'Raleway', sans-serif;
   color: whitesmoke;
-    text-align:justify;
-  margin-left: -5%;
-  margin-right: 10%;
+  font-weight:bold;
+  text-align:justify;
 }
 .paragraph{
   font-family: 'Raleway', sans-serif;
@@ -270,10 +269,11 @@ footer{
 #list{
   font-family: 'Raleway', sans-serif;
   color: whitesmoke;
+  font-weight:normal;
   margin-top: 5px;
   text-align:justify;
   margin-left: 0%;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 #bio-img{
