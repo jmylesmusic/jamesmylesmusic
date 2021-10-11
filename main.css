@@ -215,7 +215,7 @@ footer{
 .form-group{
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
-  margin: 25px 1fr 1fr auto;
+  margin: 25px auto 1fr auto;
   padding:0.25rem;
 }
 #form-button{
