@@ -285,7 +285,8 @@ figure{
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     float: right;
-    width: maxmin(80% 40%);
+    min-width:40%;
+    max-width:400px;
     text-align: center;
     font-size: smaller;
     text-indent: 0;
