@@ -96,18 +96,18 @@ footer{
     margin-top: 75px;
 }
 .headshots{
-  display: grid;
-  grid-auto-columns: 0.5fr;
-  grid-gap: 1rem;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 0;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   
 }
 #headshot-img{
-  max-width: 90%;
+  max-width: 600px;
   height: auto;
-  object-fit:inherit;
+  object-fit:cover;
   transition: opacity 0.2s ease-in-out;
   opacity: 65%;
 }
