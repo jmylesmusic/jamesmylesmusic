@@ -284,9 +284,9 @@ figure{
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    border: white;
-    
-
+    border-width: 25px;
+    border-color:white;
+}
 #bio-img{
   display:block;
   width: 70%;  
