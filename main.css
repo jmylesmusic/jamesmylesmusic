@@ -39,6 +39,27 @@ body{
     margin-left:0%;
     margin-right:0%;
 }
+.headshots{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(720px, 0.5fr));
+  grid-gap: 0.25;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+  
+}
+#headshot-img{
+  max-width: 90%;
+  height: auto;
+  object-fit:cover;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 65%;
+}
+
+#headshot-img:hover{
+  opacity: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
 .button-grid{
   display:block;
   margin-left: 0%;
@@ -97,27 +118,7 @@ footer{
     text-align: center;
     margin-top: 75px;
 }
-.headshots{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(720px, 0.5fr));
-  grid-gap: 0.25vw;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 0;
-  
-}
-#headshot-img{
-  max-width: 90%;
-  height: auto;
-  object-fit:cover;
-  transition: opacity 0.2s ease-in-out;
-  opacity: 65%;
-}
 
-#headshot-img:hover{
-  opacity: 100%;
-  transition: opacity 0.2s ease-in-out;
-}
 .perf-list{
     color: whitesmoke;
     font-family:'Raleway', sans-serif;
