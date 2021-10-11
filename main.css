@@ -30,7 +30,9 @@ h2 {
   text-decoration: none;
   text-align:justify;
   margin-top: 10px;
-  min-width: 100%;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 #list{
@@ -90,9 +92,6 @@ a:visited{
 p{
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
-    max-width: 100%;
-    margin-left: 5%;
-    margin-right: 20%;
 }
 
 footer{
@@ -260,8 +259,13 @@ footer{
 }
 
 .paragraph{
+    font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  display:block;
   text-align:justify;
-}
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 
 .bio-img{
   height: 50pc;
