@@ -53,7 +53,6 @@ button{
     display: inline-block;
     font-weight: lighter;
     text-align: center;
-    transition: 0.1s ease-in-out;
     margin-left: -3px;
     margin-right:-3px;  
     
@@ -64,6 +63,7 @@ button:hover{
     cursor: pointer;
     border-style:solid;
     font-weight: lighter;
+    transition: 0.2s ease-in-out;
 }
 .home-image{
     display:block;
@@ -334,7 +334,6 @@ figure{
   text-align:justify;
   margin-left: 10%;
   margin-right: 10%;
-  transition: 0.5s ease-out;
 }
 .email:hover{
   font-family: 'Raleway', sans-serif;
