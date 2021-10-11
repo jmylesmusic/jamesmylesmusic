@@ -317,3 +317,10 @@ figure{
   margin-left: 0%;
   margin-right: 0%;
 }
+.thanks{
+  display:block;
+  font-size:50px;
+  text-align:fill;
+  margin-left: 10%;
+  margin-right: 10%;
+}
