@@ -277,7 +277,9 @@ footer{
 }
 
 #bio-img{
-  width: 55%;  
+  display:block;
+  block-style: center;
+  width: 70%;  
   height: auto;
   margin-left:100px;
   margin-top: 100px;
@@ -289,4 +291,13 @@ figure{
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
+}
+#img-caption{
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  font-weight:normal;
+  margin-top: 5px;
+  text-align:center;
+  margin-left: 0%;
+  margin-right: 0%
 }
