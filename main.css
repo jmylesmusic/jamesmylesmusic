@@ -98,7 +98,6 @@ footer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, .75px));
   grid-gap: 0.75rem;
-  grid-auto-flow:row;
   margin-left:auto;
   margin-right:auto;
   margin: 40px;
@@ -106,9 +105,9 @@ footer{
   
 }
 #headshot-img{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  object-fit: cover;
+  object-fit:cover;
   transition: opacity 0.2s ease-in-out;
   opacity: 65%;
 }
