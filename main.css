@@ -326,3 +326,19 @@ figure{
   margin-left: 10%;
   margin-right: 10%;
 }
+.email{
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  display:block;
+  font-size:5ex;
+  text-align:justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  transition: 0.5s ease-out;
+}
+.email:hover{
+  font-family: 'Raleway', sans-serif;
+  color:#820000;
+  font-weight:bold;
+  transition: 0.2s ease-in-out;
+}
