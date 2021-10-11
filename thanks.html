@@ -1,27 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta http-equiv="main.html" content="5" >
-    <script>
-        var time = new Date().getTime();
-        $(document.body).bind("mousemove keypress", function(e) {
-            time = new Date().getTime();
-        });
-   
-        function refresh() {
-            if(new Date().getTime() - time >= 60000) 
-                window.location.reload(true);
-            else 
-                setTimeout(refresh, 10000);
-        }
-   
-        setTimeout(refresh, 10000);
-   </script>
+
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
         </style>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James Myles | Thank you!</title>
     <link rel="stylesheet" href="main.css"></link>
