@@ -96,11 +96,11 @@ footer{
 }
 .headshots{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, .75px));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   grid-gap: 1rem;
   margin-left:auto;
   margin-right:auto;
-  margin-top:auto;
+  margin-top:5%;
   margin-bottom:auto;
   padding: 0;
   
