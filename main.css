@@ -24,6 +24,19 @@ h2 {
     text-decoration: none;
     min-width: 100%;
 }
+.standard-text {
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align:left;
+  margin-top: 10px;
+  min-width: 100%;
+}
+#list{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 40px;
+  margin-top: 5px;
+}
 body{
     background-color: rgb(026, 026, 026);
 }
@@ -85,6 +98,7 @@ footer{
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    margin-top: 75px;
 }
 .headshots{
   display: grid;
@@ -234,4 +248,12 @@ footer{
 #submit:hover{
   color:red;
   background:white;
+}
+.achievements{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin-top:50px;
+  margin-left: 0px;
+  font-size:25px;
+  margin-bottom:-20px;
 }
