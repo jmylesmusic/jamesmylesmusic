@@ -97,7 +97,7 @@ footer{
 }
 .headshots{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(720px, 0.5fr));
+  grid-template-columns: 2 auto;  
   grid-gap: 1rem;
   margin-left:auto;
   margin-right:auto;
