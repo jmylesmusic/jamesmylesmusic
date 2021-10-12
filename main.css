@@ -36,8 +36,6 @@ h2 {
 }
 body{
     background-color: rgb(026, 026, 026);
-    margin-left:0%;
-    margin-right:0%;
 }
 .headshots{
   display: grid;
