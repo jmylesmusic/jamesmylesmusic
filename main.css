@@ -42,9 +42,9 @@ body{
 .headshots{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(720px, 0.45fr));
-  grid-gap: 1vw;
-  margin-left:5%;
-  margin-right:5%;
+  grid-gap: 2vw;
+  margin-left:10%;
+  margin-right:10%;
   padding: 0;
   
 }
