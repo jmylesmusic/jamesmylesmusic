@@ -168,7 +168,7 @@ footer{
   }
   #when-one {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2;    
   }
   #group-one {
     grid-column: 2;
