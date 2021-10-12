@@ -41,7 +41,7 @@ body{
 }
 .headshots{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(720px, 0.45fr));
+  grid-template-columns: repeat(2, 0.5fr);
   grid-gap: 2vw;
   margin-left:10%;
   margin-right:10%;
