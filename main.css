@@ -41,19 +41,20 @@ body{
 }
 .headshots{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(720px, 0.5fr));
-  grid-gap: 0.25vw;
-  margin-left:2%;
-  margin-right:auto;
+  grid-template-columns: repeat(auto-fit, minmax(720px, 0.45fr));
+  grid-gap: 1vw;
+  margin-left:5%;
+  margin-right:5%;
   padding: 0;
   
 }
 #headshot-img{
-  width:fill;
+  max-width: 100%;
   height: auto;
-  object-fit:cover;
+  margin:auto;
   transition: opacity 0.2s ease-in-out;
-  opacity: 65%;
+  opacity: 50%;
+  border-radius:5px;
 }
 
 #headshot-img:hover{
