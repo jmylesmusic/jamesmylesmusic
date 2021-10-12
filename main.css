@@ -42,14 +42,14 @@ body{
 .headshots{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(720px, 0.5fr));
-  grid-gap: 0.25vh;
-  margin-left:auto;
+  grid-gap: 0.25vw;
+  margin-left:2%;
   margin-right:auto;
   padding: 0;
   
 }
 #headshot-img{
-  max-width: 90%;
+  width:fill;
   height: auto;
   object-fit:cover;
   transition: opacity 0.2s ease-in-out;
