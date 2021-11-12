@@ -242,12 +242,12 @@ footer{
   border-width: 0px 1px 1px 0px;
   border-color:black;
 }
-#submit{
+#form-button{
   color:whitesmoke;
   background: grey;
   border-radius: .5rem;
 }
-#submit:hover{
+#form-button:hover{
   color:red;
   background:black;
 }
