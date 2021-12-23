@@ -7,11 +7,6 @@
     font-size: 40px;
     text-align: left;
     min-height: 50px;
-    animation: fadeIn 1s;
-    -webkit-animation: fadeIn 1s;
-    -moz-animation: fadeIn 1s;
-    -o-animation: fadeIn 1s;
-    -ms-animation: fadeIn 1s;
 }
 .subcaption{
     color: rgb(026, 026, 026);
@@ -27,11 +22,6 @@ h2 {
     color: whitesmoke;
     text-decoration: none;
     min-width: 100%;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
 }
 .standard-text {
   font-family: 'Raleway', sans-serif;
