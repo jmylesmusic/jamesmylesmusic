@@ -7,6 +7,11 @@
     font-size: 40px;
     text-align: left;
     min-height: 50px;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
 }
 .subcaption{
     color: rgb(026, 026, 026);
@@ -22,6 +27,11 @@ h2 {
     color: whitesmoke;
     text-decoration: none;
     min-width: 100%;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
 }
 .standard-text {
   font-family: 'Raleway', sans-serif;
@@ -39,10 +49,10 @@ body{
 }
 .headshots{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2%;
-  margin-left:5%;
-  margin-right:5%;
+  grid-template-columns: repeat(2, 45vw);
+  grid-gap: 1vw;
+  margin-left:3vw;
+  margin-right:3vw;
   padding: 0;
 }
 #headshot-img{
@@ -93,7 +103,38 @@ button:hover{
     margin-right: auto;
     width: 90%;
     text-align: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 a:link{
     color: whitesmoke;
     text-decoration: none;
