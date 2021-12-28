@@ -58,20 +58,22 @@ body{
   opacity: 100%;
   transition: opacity 0.2s ease-in-out;
 }
+
 button{
+  text-align: center;
+  display:inline-block;
   background-color: #111111;
-    color: whitesmoke;
-    border: 1px solid #111111;
-    font-size: 20px;
-    padding: 15px 20px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: -3px;
-    margin-right:-3px;
-    transition: width 2s ease-in-out;  
+  color: whitesmoke;
+  border: 1px solid #111111;
+  font-size: 18px;
+  padding: 10px;
+  width:14.2vw;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: width 2s ease-in-out;
+}  
     
 }
 button:hover{
@@ -82,12 +84,14 @@ button:hover{
     font-weight: lighter;
     transition: 0.2s ease-in-out;
 }
+
 .button-grid{
   margin: 0 auto;
   display:grid;
   text-align:center;
   grid-gap: 0rem;
 }
+
 @media (min-width: 400px) {
       button {width: 25vw;}
       .button-grid { grid-template-columns: repeat(4, 0fr);}
