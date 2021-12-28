@@ -92,8 +92,8 @@ button:hover{
 }
 
 @media (min-width: 400px) {
-  button {width: 25vw;}
-  .button-grid { grid}
+  button {width: 1000vw;}
+  .button-grid { grid-template-columns: repeat(1, 0fr);}
 }
 
 @media (min-width: 600px) {
