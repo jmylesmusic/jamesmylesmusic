@@ -1,14 +1,25 @@
+header{
+  transition: width 1s ease-in-out;
+  background-color: #820000;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  z-index:1;
+}
+
 .title{
     color: rgb(020, 020, 020);
     column-count:auto;
     font-family: 'Raleway', sans-serif;
-    background-color: #820000;
     font-weight: normal;
     font-size: 40px;
     text-align: left;
     min-height: 50px;
+    position:fixed;
+    width:100%;
+    top: 0;
+    z-index:1;
 }
-.subcaption{
+#subcaption{
     color: rgb(026, 026, 026);
     column-count:auto;
     font-family: 'Raleway', sans-serif;
@@ -17,6 +28,10 @@
     font-size: 13px;
     text-align: left;
     min-height: 20px;
+    position:fixed;
+    width:100%;
+    margin-bottom: 20px;
+    z-index:1;
 }
 h2 {
     color: whitesmoke;
@@ -35,15 +50,29 @@ h2 {
   margin-right: 10%;
 
 }
+
+
 body{
     background-color: rgb(026, 026, 026);
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
+
+.perf-list{
+  margin-top: 20%;
+    color: whitesmoke;
+    font-family:'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight:bolder;
+}
+
 .headshots{
   display: grid;
   grid-template-columns: repeat(2, 45vw);
   grid-gap: 1vw;
   margin-left:3vw;
   margin-right:3vw;
+  margin-top:20vh;
   padding: 0;
 }
 #headshot-img{
@@ -74,6 +103,7 @@ button{
   text-decoration: none;
   font-weight: lighter;
   transition: width 1s ease-in-out;
+  z-index:1;
 }  
     
 button:hover{
@@ -83,6 +113,7 @@ button:hover{
     border-style:solid;
     font-weight: lighter;
     transition: 0.2s ease-in-out;
+    z-index:1;
 }
 
 .button-grid{
@@ -90,6 +121,10 @@ button:hover{
   display:grid;
   text-align:center;
   grid-gap: 0rem;
+  position:fixed;
+  top:65px;
+  width:100%;
+  z-index:1;
 }
 
 @media (min-width: 100px) {
@@ -110,7 +145,7 @@ button:hover{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 20vh;
     width: 90%;
     text-align: center;
     animation: fadeIn 5s;
@@ -169,13 +204,6 @@ footer{
     margin-top: 75px;
 }
 
-.perf-list{
-    color: whitesmoke;
-    font-family:'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight:bolder;
-
-}
 .events{
     color: grey;
     font-size: auto;
@@ -185,6 +213,7 @@ footer{
     grid-template-rows:auto;
     grid-template-columns: repeat(2 1fr);
     gap: 12px;
+    margin-top: 20px;
 }
   #when {
     color:whitesmoke;
@@ -302,13 +331,12 @@ footer{
   color:red;
   background:black;
 }
-.big-heading{
+#big-heading{
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  margin-top:50px;
+  margin-top:20vh;
   margin-left: 0px;
   font-size:25px;
-  margin-bottom:-20px;
 }
 .list-head{
   font-family: 'Raleway', sans-serif;
@@ -354,7 +382,8 @@ figure{
   }
 #bio-img{
   display:block;
-  width: 90%;  
+  min-width: 50%;
+  max-width: 39vw;  
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -393,3 +422,9 @@ figure{
   font-weight:bold;
   transition: 0.1s ease-in-out;
 }
+
+iframe{
+  margin-left: 20vw;
+  margin-right:20vw;
+}
+
