@@ -23,6 +23,7 @@ h2 {
     text-decoration: none;
     min-width: 100%;
 }
+
 .standard-text {
   font-family: 'Raleway', sans-serif;
   color: whitesmoke;
@@ -109,6 +110,7 @@ button:hover{
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     width: 90%;
     text-align: center;
     animation: fadeIn 5s;
