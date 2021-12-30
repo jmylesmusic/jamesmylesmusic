@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(026, 026, 026);
+    font-family: 'Raleway', sans-serif;
+}
+
+.about{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    width:80vw; 
+    text-align:justify; 
+    margin-left:10vw; 
+    margin-right:10vw;
+}
+
+header{
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+
+#nav-bar{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration:none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    z-index:1;
+    margin-bottom: -100px;
+}
+
+.nav-link {
+    display:inline-block;
+    justify-items: stretch;
+    text-decoration:none;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.title{
+    background-color: #820000;
+    color: rgb(020, 020, 020);
+    column-count:auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: left;
+    min-height: 50px;
+    position:fixed;
+    width:100%;
+    top: 0;
+    z-index:1;
+}
+#subcaption{
+    color: rgb(026, 026, 026);
+    column-count:auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #820000;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    min-height: 20px;
+    position:fixed;
+    width:100%;
+    margin-bottom: 20px;
+    z-index:1;
+}
+
+button{
+    text-align: center;
+    display:inline-block;
+    background-color: #111111;
+    color: whitesmoke;
+    border: 1px solid #111111;
+    font-size: 18px;
+    padding: 10px;
+    width:14.2vw;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: width 1s ease-in-out;
+    z-index:1;
+}
+button:hover{
+    background-color:#820000;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-style:solid;
+    font-weight: lighter;
+    transition: 0.2s ease-in-out;
+    z-index:1;
+}
+.button-grid{
+    margin: 0 auto;
+    display:grid;
+    text-align:center;
+    grid-gap: 0rem;
+    position:fixed;
+    top:65px;
+    width:100%;
+    z-index:1;
+}
+
+@media (min-width: 100px) {
+    button {width: 50vw;}
+    .button-grid { grid-template-columns: repeat(2, 0fr);}
+  }
+  @media (min-width: 600px) {
+        button {width: 25vw;}
+        .button-grid { grid-template-columns: repeat(4, 0fr);}
+    }
+    @media (min-width: 800px) {
+        button {width: 14.2vw;}
+        .button-grid { grid-template-columns: repeat(7, 0fr);}
+}
+
+container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+input[type=email]{
+    width: 40vw;
+    padding: 12px 20px;
+    color: red;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+input[type=submit]{
+    width: 10vw;
+    color: red;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+#lessons{
+    display:inline-block;
+    color: white;
+    
+}
+
+table{
+    table-layout:fixed;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+th,td{
+border: 1px solid white;
+}
+
+#table{
+    display:inline-table;
+    padding: 8px;
+}
+
+#table-head{
+    font-size:22px;
+}
+
+#table-content{
+    font-size:14px;
+}
+
+.calendly-inline-widget{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#minutes{
+width: 100%;
+}

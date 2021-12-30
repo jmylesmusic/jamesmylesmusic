@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="demo.css">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+    </style>
+<title>Landing Page [demo]</title>
+<header class="title">
+    <strong>James Myles <div id="subcaption"> Saxophonist : Composer : Educator</strong></div>
+</header>
+<header>
+    <div class="button-grid">
+        <a href="index.html"><button>Home</button></a>
+        <a href="bio.html"><button>Bio</button></a>
+        <a href="headshots.html"><button>Headshots</button></a>
+        <a href="recordings.html"><button>Media</button></a>
+        <a href="lessons.html"><button>Lessons</button></a>
+        <a href="performances.html"><button>Performances</button></a>
+        <a href="contactme.html"><button>Connect</button></a>
+    </div>
+</header>
+<header id="header">
+    <nav id="nav-bar">
+        <ul>
+            <a class="nav-link" href="#about">About Lessons</a>
+            <a class="nav-link" href="#students">Past Students</a>
+            <a class="nav-link" href="#lessons">Lesson Options</a>
+            <a class="nav-link" href="#calendly">Schedule</a>           
+        </ul>
+    </nav>
+</header>
+<div class="container"></div>
+<body>
+    <div class="container">
+        <section class="about" style="padding-top:18vh">
+            <p>Starting private lessons is the best way to unlock a life-long love of musical creation.
+                Students will be given personalized instruction catered to a student's individual needs, giving them challenging - but achievable - goals to hit every week.
+            </p>
+            <p>Are you ready to take the next step forward? Send me an email to discuss rates, as well as for an exclusive first lesson discount!</p>
+            <h1>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" align="center">
+                    <input              
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Please enter your email address"
+                        required
+                        />
+                    <input id="submit"         
+                        type="submit"
+                        value="Submit"
+                        class="btn" 
+                        />
+                </form>
+            </h1>
+        </section>
+    </div>
+    <div class="container">
+        <h1 align="center">
+            <section id="students" style="padding-top:18vh"> 
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/tR92UiQj2uY" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </section>
+        </h1>
+    </div>
+    <div class="container">    
+        <h1>
+            <section id="lessons" style="padding-top:18vh"><p style="padding-left:2vh">What's right for me?</p>
+                <table id="table">
+                    <tr id="table-head">
+                        <th><img id="minutes" src="red30.jpg"></img></th>
+                        <th><img id="minutes" src="red60.jpg"></img></th>
+                    </tr>
+                    <tr id="table-content">
+                        <td>
+                            <li>I am just starting to play the saxophone and can only play for a couple of minutes a day.</li>
+                            <li>I am still trying to decide if I want to play the saxophone.</li>
+                    </td>
+                        <td>
+                            <li>I am playing regularly in school, in ensembles, and I practice regularly.</li>
+                            <li>I want to get the most out of my lessons experience.</li>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </h1>
+    </div>
+    <div class="container">    
+        <h1>
+            <section id="calendly" style="padding-top:18vh">
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                <div class="calendly-inline-widget" style="max-width:60vw;height:800px;" data-auto-load="false">
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                    <script>
+                        Calendly.initInlineWidget({
+                        url: 'https://calendly.com/jamesmyles'
+                    });
+                    </script>
+                </div>
+            </section>
+        </h1>
+    </div>
+</body>
+</html>
