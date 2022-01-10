@@ -1,6 +1,7 @@
 :root{
   --font:'Raleway', sans-serif;
   --red: #820000;
+  --black: rgb(020, 020, 020);
 }
 
 header{
@@ -8,15 +9,16 @@ header{
   background-color: #820000;
   width: 100%;
   font-family: var(--font);
-  font-weight:100;
+  font-weight:thin;
   z-index:1;
 }
 
 .title{
   background-color: #820000;
-    color: rgb(020, 020, 020);
+    color: var(--black);
     column-count:auto;
-    font-weight: 100;
+    font-family:var(--font);
+    font-weight:400;
     font-size: 40px;
     text-align: left;
     min-height: 50px;
@@ -27,11 +29,10 @@ header{
     z-index:1;
 
 }
-.subcaption{
-    color: rgb(026, 026, 026);
+#subcaption{
+    color:;
     column-count:auto;
     background-color: #820000;
-    font-weight: bold;
     font-size: 13px;
     text-align: left;
     min-height: 20px;
