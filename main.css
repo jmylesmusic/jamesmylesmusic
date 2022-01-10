@@ -7,6 +7,7 @@ header{
 }
 
 .title{
+  background-color: #820000;
     color: rgb(020, 020, 020);
     column-count:auto;
     font-family: 'Raleway', sans-serif;
@@ -16,9 +17,10 @@ header{
     min-height: 50px;
     position:fixed;
     width:100%;
-    left:0
     top: 0;
+    left:0;
     z-index:1;
+
 }
 #subcaption{
     color: rgb(026, 026, 026);
@@ -31,8 +33,7 @@ header{
     min-height: 20px;
     position:fixed;
     width:100%;
-    margin-bottom: 20px;
-    z-index:1;
+    z-index:2;
 }
 h2 {
     color: whitesmoke;
