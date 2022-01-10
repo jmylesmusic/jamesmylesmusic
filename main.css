@@ -4,7 +4,7 @@
   --darkgrey: rgb(020, 020, 020);
   --white: whitesmoke;
   --black: #111111;
-  --lightgrey: #660000;
+  --current: #660000;
 }
 
 header{
@@ -112,6 +112,7 @@ body{
 }
 
 button{
+  font-family: var(--font);
   text-align: center;
   display:inline-block;
   background-color: var(--black);
@@ -121,9 +122,8 @@ button{
   padding: 10px;
   margin-top:2px;
   height: 50px;
-  font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  font-weight: lighter;
+  font-weight:200;
   transition: width 1s ease-in-out;
   z-index:1;
 }  
