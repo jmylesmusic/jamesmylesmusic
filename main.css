@@ -15,7 +15,6 @@ header{
   font-weight:thin;
   z-index:1;
   left:0;
-  transition:none;
 }
 
 .title{
@@ -32,7 +31,6 @@ header{
     top: 0;
     left:0;
     z-index:1;
-    transition:none;
 }
 #subcaption{
     color: var(--darkgrey);
@@ -150,7 +148,8 @@ button:hover{
   width:100%;
   z-index:1;
   justify-content: center;
-}
+  animation: fadeInAnimation;
+  animation-duration: 0.0s;}
 
 
 @media (min-width: 100px) {
