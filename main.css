@@ -1,10 +1,12 @@
-
+:root{
+  --font:'Raleway', sans-serif;
+}
 
 header{
   transition: width 1s ease-in-out;
   background-color: #820000;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font);
   z-index:1;
 }
 
@@ -12,7 +14,6 @@ header{
   background-color: #820000;
     color: rgb(020, 020, 020);
     column-count:auto;
-    font-family: var(--font);
     font-weight: normal;
     font-size: 40px;
     text-align: left;
@@ -27,7 +28,6 @@ header{
 .subcaption{
     color: rgb(026, 026, 026);
     column-count:auto;
-    font-family: 'Raleway', sans-serif;
     background-color: #820000;
     font-weight: bold;
     font-size: 13px;
@@ -112,7 +112,7 @@ button{
   color: whitesmoke;
   border: 1px solid #111111;
   font-size: 18px;
-  padding: 10px;
+  padding: 0px;
   height: 50px;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -132,7 +132,8 @@ button:hover{
 }
 
 .button-grid{
-  margin: 0 auto;
+  margin: 0px auto;
+  left:0;
   display:grid;
   text-align:center;
   grid-gap: 0rem;
@@ -146,6 +147,7 @@ button:hover{
 
 @media (min-width: 100px) {
       button {width: 25vw;}
+      left:0;
       .button-grid { grid-template-columns: repeat(4, 0fr);}
 }
 
