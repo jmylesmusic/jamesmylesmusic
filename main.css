@@ -67,10 +67,11 @@ body{
     background-color: var(--darkgrey);
     margin-top: 200px;
     margin-bottom: 20px;
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
