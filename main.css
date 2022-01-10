@@ -1,12 +1,14 @@
 :root{
   --font:'Raleway', sans-serif;
   --red: #820000;
-  --black: rgb(020, 020, 020);
+  --darkgrey: rgb(020, 020, 020);
+  --white: whitesmoke;
+  --black: #111111;
 }
 
 header{
   transition: width 1s ease-in-out;
-  background-color: #820000;
+  background-color: var(--red);
   width: 100%;
   font-family: var(--font);
   font-weight:thin;
@@ -14,8 +16,8 @@ header{
 }
 
 .title{
-  background-color: #820000;
-    color: var(--black);
+  background-color: var(--red);
+    color: var(--darkgrey);
     column-count:auto;
     font-family:var(--font);
     font-weight:400;
@@ -30,9 +32,9 @@ header{
 
 }
 #subcaption{
-    color:;
+    color: var(--darkgrey);
     column-count:auto;
-    background-color: #820000;
+    background-color:var(--red);
     font-size: 13px;
     text-align: left;
     min-height: 20px;
@@ -42,14 +44,14 @@ header{
 }
 
 h2 {
-    color: whitesmoke;
+    color: var(--white);
     text-decoration: none;
     min-width: 100%;
 }
 
 .standard-text {
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  font-family: var(--font);
+  color: var(--white);
   text-decoration: none;
   text-align:justify;
   margin-top: 10px;
@@ -61,7 +63,7 @@ h2 {
 
 
 body{
-    background-color: rgb(026, 026, 026);
+    background-color: var(--darkgrey);
     margin-top: 200px;
     margin-bottom: 20px;
     animation: fadeInAnimation ease 1s;
@@ -79,7 +81,7 @@ body{
 
 .perf-list{
   margin-top: 20%;
-    color: whitesmoke;
+    color: var(--white);
     font-family:'Raleway', sans-serif;
     font-size: 45px;
     font-weight:bolder;
@@ -111,7 +113,7 @@ body{
 button{
   text-align: center;
   display:inline-block;
-  background-color: #111111;
+  background-color: var(--black);
   color: whitesmoke;
   border: 1px solid #111111;
   font-size: 18px;
