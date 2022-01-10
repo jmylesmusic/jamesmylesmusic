@@ -1,5 +1,6 @@
 :root{
   --font:'Raleway', sans-serif;
+  --red: #820000;
 }
 
 header{
@@ -7,6 +8,7 @@ header{
   background-color: #820000;
   width: 100%;
   font-family: var(--font);
+  font-weight:100;
   z-index:1;
 }
 
@@ -14,7 +16,7 @@ header{
   background-color: #820000;
     color: rgb(020, 020, 020);
     column-count:auto;
-    font-weight: normal;
+    font-weight: 100;
     font-size: 40px;
     text-align: left;
     min-height: 50px;
