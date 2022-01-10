@@ -16,6 +16,7 @@ header{
     min-height: 50px;
     position:fixed;
     width:100%;
+    left:0
     top: 0;
     z-index:1;
 }
@@ -108,7 +109,6 @@ button{
   border: 1px solid #111111;
   font-size: 18px;
   padding: 10px;
-  width:14.2vw;
   height: 50px;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -136,14 +136,11 @@ button:hover{
   top:65px;
   width:100%;
   z-index:1;
+  justify-content: center;
 }
+
 
 @media (min-width: 100px) {
-  button {width: 50vw;}
-  .button-grid { grid-template-columns: repeat(2, 0fr);}
-}
-
-@media (min-width: 600px) {
       button {width: 25vw;}
       .button-grid { grid-template-columns: repeat(4, 0fr);}
 }
