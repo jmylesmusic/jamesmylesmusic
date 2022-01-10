@@ -140,7 +140,6 @@ button:hover{
 
 .button-grid{
   margin: 0px auto;
-  left:0;
   display:grid;
   text-align:center;
   grid-gap: 0rem;
@@ -155,13 +154,13 @@ button:hover{
 
 @media (min-width: 100px) {
       button {width: 25vw;}
-      .button-grid { grid-template-columns: repeat(4, 0fr);}
+      .button-grid { grid-template-columns: repeat(4, 0fr); left:0;}
       
 }
 
 @media (min-width: 800px) {
-      button {width: 14.2vw;}
-      .button-grid { grid-template-columns: repeat(7, 0fr); justify-content: center;
+      button {width: 14.285vw;}
+      .button-grid { grid-template-columns: repeat(7, 0fr); justify-content: center; left:0;
       }
   }
 .home-image{
