@@ -66,6 +66,7 @@
   
 
 #button{
+    height: 30px;
     font-family: var(--font);
     text-align: center;
     display:inline-block;
@@ -75,7 +76,6 @@
     font-size: 18px;
     padding: 10px;
     margin-top:2px;
-    height: 30px;
     text-decoration: none;
     font-weight:200;
     transition: width 1s ease-in-out;
