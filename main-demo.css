@@ -112,7 +112,7 @@
     transition: opacity 0.4s ease-in-out;
   }
   
-#button{
+  button{
     font-family: var(--font);
     text-align: center;
     display:inline-block;
@@ -129,7 +129,7 @@
     z-index:1;
   }  
       
-  #button:hover{
+  button:hover{
       background-color:#820000;
       border: 1px solid grey;
       cursor: pointer;
@@ -153,13 +153,13 @@
   
   
   @media (min-width: 100px) {
-        #button {width: 25vw;}
+        button {width: 25vw;}
         .button-grid { grid-template-columns: repeat(4, 0fr); left:0;}
         
   }
   
   @media (min-width: 800px) {
-        #button {width: 14.285vw;}
+        button {width: 14.285vw;}
         .button-grid { grid-template-columns: repeat(7, 0fr); justify-content: center; left:0;
         }
     }
