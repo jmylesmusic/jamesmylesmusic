@@ -398,12 +398,9 @@ footer{
 .form-group{
   color:var(--white);
   font-family:var(--font);
+  font-size:14px;
   margin: 25px auto 1fr auto;
-  padding:0.25rem;
-}
-#form-button{
-  color:var(--white);
-    font-family:var(--font);
+  padding:0.5rem;
 }
 
 
@@ -411,12 +408,14 @@ footer{
   font-family:var(--font);
   color:var(--grey);
   font-style:italic;
+  font-si
 }
 #dropdown{
   font-family:var(--font);
   color:var(--black);
-  font-size:16px;
+  font-size:14px;
   font-style:bolder;
+  margin-top:0.5rem;
 }
 .form-control{
   display:block;
@@ -425,13 +424,14 @@ footer{
   border-color:black;
 }
 #form-button{
+  margin-top:15px;
   color:var(--white);
   background: var(--grey);
   border-radius: .5rem;
 }
 #form-button:hover{
   color:var(--red);
-  background:black;
+  background:var(--white);
 }
 .big-heading{
   position:justify;
@@ -484,7 +484,7 @@ figure{
     min-width:40%;
     max-width:400px;
     text-align: center;
-    font-size: smaller;
+    font-size: larger;
     text-indent: 0;
     border: thin silver solid;
     margin: 1em;
