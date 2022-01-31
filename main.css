@@ -20,14 +20,14 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-.header{
+header{
   position:absolute;
   background-color: var(--red);
   width: 100%;
   font-family: var(--font);
   font-weight:thin;
   left:0;
-  animation:none;
+  animation:ease-in 0s;
 }
 
 li {
@@ -94,7 +94,6 @@ a {
   left:0;
   height:50px;
   z-index:2;
-
 }
 #subcaption{
   position:absolute;
@@ -106,7 +105,6 @@ a {
   width:100%;
   height:18px;
   z-index:2;
-
 }
 
 h2 {
@@ -126,7 +124,6 @@ h2 {
   margin-right: 10%;
 
 }
-
 
 body{
     background-color: var(--darkgrey);
