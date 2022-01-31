@@ -50,7 +50,7 @@
         <div style="padding-top:125px"></div>    
     <fieldset>
         <legend id="description">CONTACT ME:</legend>
-    <form id="survey-form">
+    <form action="survey.php" method="get" id="survey-form">
        <div class="form-group">
            <label id="name-label" for "First Name">First Name: *</label>
            <input 
@@ -96,10 +96,10 @@
        </form>
        <p style="margin-left:0px">Which best describes the reason for contacting? *</p>
        <select id="dropdown" name="why" class="form-control" style="min-width: 50%" required >
-    <option disabled selected value>Reason for contacting?</option>
+    <option disabled selected value><style = style="font-style:italic"></style>Reason for contacting?</option>
     <option value="Student">Lesson Inquiry</option>
     <option value="Performance">Performance Inquiry</option>
-        <option value="Composition">Composition Inquiry</option>
+    <option value="Composition">Composition Inquiry</option>
 </select>   
        <div class="form-group" required>
            <label class="container">Would you like to recieve newsletters?</label>
