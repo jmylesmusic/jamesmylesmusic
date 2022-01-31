@@ -144,11 +144,11 @@ body{
 }
 
 .perf-list{
-  margin-top: 20%;
-    color: var(--white);
-    font-family:'Raleway', sans-serif;
-    font-size: 45px;
-    font-weight:bolder;
+  padding-top: 125px;
+  color: var(--white);
+  font-family:'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight:400;
 }
 
 .headshots{
@@ -461,7 +461,7 @@ footer{
   font-weight:normal;
   margin-left:5%;
   text-align:justify;
-  margin-right: 5%;
+  margin-left:20px;
   margin-top:10px;
 }
 
