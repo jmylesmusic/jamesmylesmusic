@@ -452,12 +452,13 @@ footer{
 }
 .paragraph{
   font-family:var(--font);
+  font-weight:300;
   color:var(--white);
   font-size:16px;
   text-align:justify;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-top:10px;
 }
 
