@@ -174,6 +174,21 @@ body{
   transition: opacity 0.4s ease-in-out;
 }
 
+.home-image{
+  display:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20vh;
+  width: 90%;
+  text-align: center;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  z-index:-1;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar{
       margin-top:-68px;
@@ -226,19 +241,9 @@ body{
       }
   
   }
-.home-image{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20vh;
-    width: 90%;
-    text-align: center;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
 }
+
+
 
 @keyframes fadeIn {
   0% {opacity:0;}
