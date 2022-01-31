@@ -7,16 +7,6 @@
   --current: #660000;
 }
 
-header{
-  transition: width 1s ease-in-out;
-  background-color: var(--red);
-  width: 100%;
-  font-family: var(--font);
-  font-weight:thin;
-  z-index:1;
-  left:0;
-}
-
 .header{
   position:absolute;
   background-color: var(--red);
@@ -165,56 +155,57 @@ body{
   transition: opacity 0.4s ease-in-out;
 }
 
-button{
-  font-family: var(--font);
-  text-align: center;
-  display:inline-block;
-  background-color: var(--black);
-  color: whitesmoke;
-  border: 1px solid var(--black);
-  font-size: 18px;
-  padding: 10px;
-  margin-top:2px;
-  height: 50px;
-  text-decoration: none;
-  font-weight:200;
-  transition: width 1s ease-in-out;
-  z-index:1;
-}  
-    
-button:hover{
-    background-color:#820000;
-    border: 1px solid grey;
-    cursor: pointer;
-    border-style:solid;
-    transition: 0.2s ease-in-out;
-    z-index:1;
-}
-
-.button-grid{
-  margin: 0px auto;
-  display:grid;
-  text-align:center;
-  grid-gap: 0rem;
-  position:fixed;
-  top:65px;
-  width:100%;
-  z-index:1;
-  justify-content: center;
-  animation: fadeInAnimation;
-  animation-duration: 0.0s;}
-
-
-@media (min-width: 100px) {
-      button {width: 25vw;}
-      .button-grid { grid-template-columns: repeat(4, 0fr); left:0;}
-      
-}
-
-@media (min-width: 800px) {
-      button {width: 14.285vw;}
-      .button-grid { grid-template-columns: repeat(7, 0fr); justify-content: center; left:0;
+@media only screen and (max-width: 768px) {
+  .navbar{
+      margin-top:-68px;
+  }
+  
+      .nav-menu {
+          position: fixed;
+          left:0;
+          top: -468px;
+          flex-direction: column;
+          grid-template-columns:repeat(1, 30fr);
+          background-color: var(--grey);
+          width: 100%;
+          text-align: center;
+          transition: 1s;
+          z-index:0;
       }
+      
+      .nav-menu.active {
+          position:fixed;
+          left:0;
+          top:68px;
+          z-index:0;        
+      }
+      
+      .nav-item {
+          margin: 2.5rem;
+      }
+      
+  
+      .hamburger {
+          position:fixed;
+          top: 20px;
+          right: 20px;
+          display: block;
+          cursor: pointer;
+          z-index:2;
+      }
+  
+      .hamburger.active .bar:nth-child(2) {
+          opacity: 0;
+      }
+  
+      .hamburger.active .bar:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+      }
+  
+      .hamburger.active .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+      }
+  
   }
 .home-image{
     display:block;
