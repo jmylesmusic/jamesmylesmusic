@@ -144,10 +144,10 @@ body{
 }
 
 .perf-list{
-  padding-top: 125px;
+  padding-top: 110px;
   color: var(--white);
   font-family:'Raleway', sans-serif;
-  font-size: 45px;
+  font-size: 36px;
   font-weight:400;
 }
 
