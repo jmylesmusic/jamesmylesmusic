@@ -555,3 +555,9 @@ button:hover{
     transition: 0.2s ease-in-out;
     z-index:1;
 }
+fieldset{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  border:none;
+}
