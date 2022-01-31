@@ -244,8 +244,11 @@ body{
       .hamburger.active .bar:nth-child(3) {
           transform: translateY(-8px) rotate(-45deg);
       }
-  
+      .big-heading {
+        margin-top:180px;
+      }
   }
+
 }
 
 
@@ -431,7 +434,7 @@ footer{
   color:var(--white);
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  margin-left: 0px;
+  margin-left: 10px;
   font-size:25px;
   padding-top:40px;
 }
@@ -441,15 +444,17 @@ footer{
   color: whitesmoke;
   font-weight:bold;
   text-align:justify;
+  margin-left:20px;
 }
 .paragraph{
   font-family: 'Raleway', sans-serif;
   color: whitesmoke;
+  font-size:12px;
   text-align:justify;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  padding-top:5px;
+  padding-top:10px;
 }
 
 #list{
