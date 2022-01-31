@@ -27,6 +27,7 @@ html {
   font-family: var(--font);
   font-weight:thin;
   left:0;
+  animation:none;
 }
 
 li {
@@ -44,7 +45,7 @@ a {
   padding: 1rem 1.5rem;
   background-color:var(--grey);
   width:100%;
-  margin-top:68px;
+  margin-top:65px;
 }
 
 .hamburger {
@@ -149,6 +150,8 @@ body{
   font-family:var(--font);
   font-size: 36px;
   font-weight:400;
+  padding-left:10px;
+  padding-bottom:15px;
 }
 
 .headshots{
@@ -301,7 +304,7 @@ footer{
 }
 
 .events{
-    color: var(--grey);
+    color: var(--white);
     font-size: auto;
     font-family:var(--font);
     display:grid;
@@ -310,6 +313,10 @@ footer{
     grid-template-columns: repeat(2 1fr);
     gap: 12px;
     margin-top: 20px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    
 }
   #when {
     color:var(--white);
@@ -480,7 +487,7 @@ figure{
     border: thin silver solid;
     margin: 1em;
     padding: 1em;
-    background: black;
+    background: var(--black);
   }
 #bio-img{
   display:block;
