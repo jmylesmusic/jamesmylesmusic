@@ -398,7 +398,7 @@ footer{
 .form-group{
   color:var(--white);
   font-family:var(--font);
-  font-size:14px;
+  font-size:12px;
   margin: 25px auto 1fr auto;
   padding:0.5rem;
 }
@@ -408,7 +408,7 @@ footer{
   font-family:var(--font);
   color:var(--grey);
   font-style:italic;
-  font-si
+  font-size:12px;
 }
 #dropdown{
   font-family:var(--font);
