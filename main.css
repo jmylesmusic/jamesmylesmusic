@@ -277,24 +277,24 @@ body{
 }
 
 a:link{
-    color: whitesmoke;
+    color:var(--white);
     text-decoration: none;
     text-decoration-color: none;
 }
 
 a:visited{
-    color: whitesmoke;
+    color:var(--white);
     text-decoration: none;
     text-decoration-color: none;
 }
 
 p{
-    color: whitesmoke;
+    color:var(--white);
     font-family: 'Raleway', sans-serif;
 }
 
 footer{
-    color: whitesmoke;
+    color:var(--white);
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 75px;
@@ -379,24 +379,24 @@ footer{
     text-align: center;
 }
 #description{
-  color: whitesmoke;
+  color:var(--white);
     font-family: 'Raleway', sans-serif;
 }
 
 #survey-form{
-  color: whitesmoke;
+  color:var(--white);
   font-family: 'Raleway', sans-serif;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
 }
 .form-group{
-  color: whitesmoke;
+  color:var(--white);
   font-family: 'Raleway', sans-serif;
   margin: 25px auto 1fr auto;
   padding:0.25rem;
 }
 #form-button{
-  color: whitesmoke;
+  color:var(--white);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -419,8 +419,8 @@ footer{
   border-color:black;
 }
 #form-button{
-  color:whitesmoke;
-  background: grey;
+  color:var(--white);
+  background: var(--grey);
   border-radius: .5rem;
 }
 #form-button:hover{
@@ -439,14 +439,14 @@ footer{
 .list-head{
   font-family: 'Raleway', sans-serif;
   font-size:12px;
-  color: whitesmoke;
+  color:var(--white);
   font-weight:bold;
   text-align:justify;
   margin-left:20px;
 }
 .paragraph{
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color:var(--white);
   font-size:12px;
   text-align:justify;
   width: 90%;
@@ -493,7 +493,7 @@ figure{
 
 #img-caption{
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color:var(--white);
   font-weight:normal;
   margin-top: 5px;
   text-align:center;
@@ -502,26 +502,29 @@ figure{
 }
 .thanks{
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color: var(--white);
   display:block;
-  font-size:5ex;
+  font-size:20px;
+  font-weight:200;
   text-align:justify;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top:125px;
 }
 .email{
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color:var(--white);
   display:block;
-  font-size:5ex;
+  font-size:20px;
+  font-weight:200;
   text-align:justify;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top:20px;
 }
 .email:hover{
   font-family: 'Raleway', sans-serif;
-  color:#820000;
-  font-weight:bold;
+  color:var(--red);
   transition: 0.1s ease-in-out;
 }
 
@@ -535,7 +538,7 @@ button{
   text-align: center;
   display:inline-block;
   background-color: var(--black);
-  color: whitesmoke;
+  color:var(--white);
   border: 1px solid var(--black);
   font-size: 18px;
   padding: 10px;
