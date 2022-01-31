@@ -16,3 +16,6 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+
+document.getElementById("1st Place").style.color = 'gold';
