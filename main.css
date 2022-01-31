@@ -244,11 +244,9 @@ body{
       .hamburger.active .bar:nth-child(3) {
           transform: translateY(-8px) rotate(-45deg);
       }
-      .big-heading {
-        margin-top:180px;
-      }
+  
   }
-
+  
 }
 
 
@@ -457,9 +455,9 @@ footer{
   padding-top:10px;
 }
 
-#list{
+.list{
   font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
+  color:var(--white);
   font-weight:normal;
   margin-left:5%;
   text-align:justify;
