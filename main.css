@@ -546,11 +546,12 @@ button{
   font-family: var(--font);
   text-align: center;
   display:inline-block;
-  background-color: var(--black);
+  background-color: var(--grey);
   color:var(--white);
   border: 1px solid var(--black);
-  font-size: 18px;
+  font-size: 14px;
   padding: 10px;
+  width: 150px;
   margin-top:2px;
   height: 50px;
   text-decoration: none;
