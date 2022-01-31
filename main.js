@@ -17,5 +17,9 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-
-document.getElementById("1st Place").style.color = 'gold';
+function f_color(){
+    if (document.getElementsByName('paragraph').value = '1st Place') {
+    document.getElementsByName('paragraph').style.color = "red";
+    }
+    }
+    document.getElementByName('paragraph').onchange= f_color;
