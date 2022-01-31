@@ -146,7 +146,7 @@ body{
 .perf-list{
   padding-top: 110px;
   color: var(--white);
-  font-family:'Raleway', sans-serif;
+  font-family:var(--font);
   font-size: 36px;
   font-weight:400;
 }
@@ -290,20 +290,20 @@ a:visited{
 
 p{
     color:var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family:var(--font);
 }
 
 footer{
     color:var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family:var(--font);
     text-align: center;
     margin-top: 75px;
 }
 
 .events{
-    color: grey;
+    color: var(--grey);
     font-size: auto;
-    font-family:'Raleway', sans-serif;
+    font-family:var(--font);
     display:grid;
     grid-template-columns:auto;
     grid-template-rows:auto;
@@ -312,29 +312,29 @@ footer{
     margin-top: 20px;
 }
   #when {
-    color:whitesmoke;
-    border-bottom:1px solid whitesmoke;
+    color:var(--white);
+    border-bottom:1px solid var(--white);
     font-size:25px;
     grid-column: 1;
     grid-row: 1;
   }
   #group {
-    color:whitesmoke;
+    color:var(--white);
     font-size:25px;
-    border-bottom:1px solid whitesmoke;
+    border-bottom:1px solid var(--white);
     grid-column: 2;
     grid-row: 1;
   }
   #where {
-    color:whitesmoke;
+    color:var(--white);
     font-size:25px;
-    border-bottom:1px solid whitesmoke;
+    border-bottom:1px solid var(--white);
     grid-column: 3;
     grid-row: 1;
   }
   #tickets{
-    color:whitesmoke;
-    border-bottom:1px solid whitesmoke;
+    color:var(--white);
+    border-bottom:1px solid var(--white);
     font-size:25px;
       grid-column: 4;
       grid-row: 1;
@@ -380,35 +380,35 @@ footer{
 }
 #description{
   color:var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family:var(--font);
 }
 
 #survey-form{
   color:var(--white);
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   display:grid;
   grid-template-columns:repeat(2, 1fr);
 }
 .form-group{
   color:var(--white);
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   margin: 25px auto 1fr auto;
   padding:0.25rem;
 }
 #form-button{
   color:var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family:var(--font);
 }
 
 
 ::placeholder{
-  font-family: 'Raleway', sans-serif;
-  color:rgb(100, 100, 100);
+  font-family:var(--font);
+  color:var(--grey);
   font-style:italic;
 }
 #dropdown{
-  font-family: 'Raleway', sans-serif;
-  color:black;
+  font-family:var(--font);
+  color:var(--black);
   font-size:16px;
   font-style:bolder;
 }
@@ -424,20 +424,20 @@ footer{
   border-radius: .5rem;
 }
 #form-button:hover{
-  color:red;
+  color:var(--red);
   background:black;
 }
 .big-heading{
   position:justify;
   color:var(--white);
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   font-weight: 400;
   margin-left: 10px;
   font-size:25px;
   padding-top:40px;
 }
 .list-head{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   font-size:12px;
   color:var(--white);
   font-weight:bold;
@@ -445,7 +445,7 @@ footer{
   margin-left:20px;
 }
 .paragraph{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color:var(--white);
   font-size:12px;
   text-align:justify;
@@ -456,7 +456,7 @@ footer{
 }
 
 .list{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color:var(--white);
   font-weight:normal;
   margin-left:5%;
@@ -492,7 +492,7 @@ figure{
 }
 
 #img-caption{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color:var(--white);
   font-weight:normal;
   margin-top: 5px;
@@ -501,7 +501,7 @@ figure{
   margin-right: 0%;
 }
 .thanks{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color: var(--white);
   display:block;
   font-size:20px;
@@ -512,7 +512,7 @@ figure{
   padding-top:125px;
 }
 .email{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color:var(--white);
   display:block;
   font-size:20px;
@@ -523,7 +523,7 @@ figure{
   padding-top:20px;
 }
 .email:hover{
-  font-family: 'Raleway', sans-serif;
+  font-family:var(--font);
   color:var(--red);
   transition: 0.1s ease-in-out;
 }
