@@ -53,53 +53,55 @@
         <form action="survey.php" method="get" id="survey-form">
             <div class="form-group">
                 <label id="name-label" for "First Name">First Name: *</label>
-                <input 
-                    type="text"
-                    name="first name"
-                    id="name"
-           class="form-control"
-           placeholder="First Name"
-           required
-           />
+                    <input 
+                        type="text"
+                        name="first name"
+                        id="name"
+                        class="form-control"
+                        placeholder="First Name"
+                        required
+                    />
            </div>
            <div class="form-group">
-            <label id="name-label" for "Last Name">Last Name: *</label>
-            <input 
-            type="text"
-            name="last name"
-            id="name"
-            class="form-control"
-            placeholder="Last Name"
-            required
-            />
-       </div> 
-       <div class="form-group" style="grid-row: 3; grid-column:1 / span 1">
-        <label id="name-label" for "email">Email Address: *</label>
-        <input 
-        type="text"
-        name="email"
-        id="name"
-        class="form-control"
-        placeholder="Email Address"
-        required
-        /></div>
-        <div class="form-group" style="grid-row: 3; grid-column:2 / span 1">
-        <label id="name-label" for "phone-number">Phone Number:</label>
-        <input 
-        type="text"
-        name="phoneNumber"
-        id="name"
-        class="form-control"
-        placeholder="Phone Number"
-        optional
-        /></div>
-       <p style="margin-left:0px">Which best describes the reason for contacting? *</p>
-       <select id="dropdown" name="why" class="form-control" style="min-width: 50%; grid-row: 4/span 1" required >
-    <option disabled selected value>Reason for contacting?</option>
-    <option value="Student">Lesson Inquiry</option>
-    <option value="Performance">Performance Inquiry</option>
-    <option value="Composition">Composition Inquiry</option>
-</select>   
+                <label id="name-label" for "Last Name">Last Name: *</label>
+                    <input 
+                        type="text"
+                        name="last name"
+                        id="name"
+                        class="form-control"
+                        placeholder="Last Name"
+                        required
+                    />
+            </div> 
+            <div class="form-group" style="grid-row: 3; grid-column:1 / span 1">
+                <label id="name-label" for "email">Email Address: *</label>
+                    <input 
+                        type="text"
+                        name="email"
+                        id="name"
+                        class="form-control"
+                        placeholder="Email Address"
+                        required
+                    />
+            </div>
+            <div class="form-group" style="grid-row: 3; grid-column:2 / span 1">
+                <label id="name-label" for "phone-number">Phone Number:</label>
+                    <input 
+                        type="text"
+                        name="phoneNumber"
+                        id="name"
+                        class="form-control"
+                        placeholder="Phone Number"
+                        optional
+                />
+            </div>
+            <div style="margin-left:0px grid-row:4/span 1">Which best describes the reason for contacting? *</div>
+                <select id="dropdown" name="why" class="form-control" required >
+                    <option disabled selected value>Reason for contacting?</option>
+                    <option value="Student">Lesson Inquiry</option>
+                    <option value="Performance">Performance Inquiry</option>
+                    <option value="Composition">Composition Inquiry</option>
+                </select>   
        <div class="form-group" required>
            <label class="container">Would you like to recieve newsletters?</label>
            <input name="newsletter"; type="radio"; id="form-button";>
