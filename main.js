@@ -16,10 +16,3 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
-
-function f_color(){
-    if (document.getElementsByName('paragraph').value = '1st Place') {
-    document.getElementsByName('paragraph').style.color = "red";
-    }
-    }
-    document.getElementByName('paragraph').onchange= f_color;
