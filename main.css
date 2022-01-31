@@ -426,10 +426,11 @@ footer{
   color:red;
   background:black;
 }
-#big-heading{
+.big-heading{
+  position:justify;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  margin-top:20vh;
+  padding-top:125px;
   margin-left: 0px;
   font-size:25px;
 }
