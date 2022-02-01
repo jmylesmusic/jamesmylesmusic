@@ -178,14 +178,6 @@ body{
   transition: opacity 0.4s ease-in-out;
 }
 
-#headshot-img.click{
-  display:absolute;
-  margin-top: 125px;
-  width:90%;
-  height:auto;
-  z-index:1;
-}
-
 .home-image{
   display:auto;
   margin-left: 5%;
