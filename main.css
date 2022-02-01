@@ -401,7 +401,6 @@ footer{
   background: var(--grey);
   border-radius: .5rem;
   height:40px;
-  grid-column:4;
 }
 #form-button:hover{
   color:var(--red);
