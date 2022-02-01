@@ -195,15 +195,20 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+  .header{
+    position:fixed;
+    z-index:2;
+
+  }
   .navbar{
-      margin-top:-64px;
+      margin-top:-100px;
       left:0;
   }
   
       .nav-menu {
           position: fixed;
           left:0;
-          top: -464px;
+          top: -200vh;
           flex-direction: column;
           grid-template-columns:repeat(1, 30fr);
           border-radius: 0 0 20px 20px;
@@ -228,7 +233,7 @@ body{
       
   
       .hamburger {
-          position:absolute;
+          position:fixed;
           z-index:3;
           top: 20px;
           right: 20px;
