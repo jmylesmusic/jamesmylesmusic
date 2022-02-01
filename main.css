@@ -351,18 +351,18 @@ footer{
     font-family:var(--font);
 }
 .survey-block{
-  display:table; 
   padding-top:125px; 
-  margin-left:auto;
-  margin-right:auto;
+
 }
 
 #survey-form{
-  max-width:50%;
   color:var(--white);
   font-family:var(--font);
   display:grid;
-  grid-template-columns:repeat(2, 1fr);
+  grid-template-columns:repeat(2, auto);
+  max-width:50%;
+  margin-left:25%;
+  margin-right:25%;
 }
 .form-group{
   color:var(--white);
