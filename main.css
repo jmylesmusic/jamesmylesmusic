@@ -177,8 +177,8 @@ body{
 #headshot-img:hover{
   opacity: 100%;
   transition: opacity 1s ease-in-out;
-  justify-self: center;
-  transform: scale(2,2):
+  left: 10%;
+  right:10%;
 }
 
 .home-image{
