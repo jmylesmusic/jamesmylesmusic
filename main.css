@@ -163,6 +163,7 @@ body{
   margin-top:20vh;
   padding: 0;
 }
+
 #headshot-img{
   display:auto;
   max-width: 100%;
@@ -175,12 +176,8 @@ body{
 }
 
 #headshot-img:hover{
-  position: absolute;
   opacity: 100%;
-  transition: opacity 1s ease-in;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  transition: opacity 1s ease-out;
   z-index:3;
 }
 
@@ -203,6 +200,7 @@ body{
   .header{
     position:fixed;
     z-index:2;
+    border-radius:0 0 10px 0;
   }
   
   .navbar{
