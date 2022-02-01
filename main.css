@@ -4,11 +4,10 @@
 :root{
   --font:'Raleway', sans-serif;
   --red: #820000;
-  --darkgrey: rgb(050, 050, 050);
-  --white: whitesmoke;
+  --darkgrey: #323232;
+  --white: #f5f5f5;
   --black: #111111;
-  --grey: rgb(065, 062, 062);
-  --gray:#656262;
+  --grey: #413e3e;
   --current: #660000;
 }
 * {
@@ -87,7 +86,7 @@ a {
 .title {
   position:absolute;
   background-color: var(--red);
-  color: var(--black);
+  color: var(--white);
   column-count:auto;
   font-family:var(--font);
   font-weight:400;
