@@ -178,6 +178,14 @@ body{
   transition: opacity 0.4s ease-in-out;
 }
 
+#headshot-img.click{
+  display:absolute;
+  margin-top: 125px;
+  width:90%;
+  height:auto;
+  z-index:1;
+}
+
 .home-image{
   display:auto;
   margin-left: 5%;
@@ -307,7 +315,7 @@ footer{
     font-size: auto;
     font-family:var(--font);
     display:grid;
-    grid-template-columns:repeat(4,0fr);
+    grid-template-columns:repeat(4,auto);
     grid-template-rows:auto;
     gap: 12px;
     margin-top: 20px;
@@ -322,7 +330,7 @@ footer{
     font-size:25px;
   }
   #info{
-    
+    font-size:13px;
   }
 
 
