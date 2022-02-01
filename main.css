@@ -534,7 +534,6 @@ button{
   text-decoration: none;
   font-weight:400;
   width:100%;
-  transition: 1s ease-in-out;
   z-index:1;
 }  
     
