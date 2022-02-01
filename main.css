@@ -393,7 +393,8 @@ footer{
   display:block;
   border-radius: .25rem;
   border-width: 0px 1px 1px 0px;
-  border-color:black;
+  border-color:none;
+  text-indent:4px;
 }
 #form-button{
   margin-top:15px;
