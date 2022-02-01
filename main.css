@@ -72,6 +72,7 @@ a {
 }
 
 .nav-link{
+  transition: 1s ease-in-out;
   font-size: 1.6rem;
   font-weight: 400;
   color:var(--white);
@@ -522,26 +523,23 @@ iframe{
 button{
   font-family: var(--font);
   text-align: center;
-  display:inline-block;
+  display:grid;
   background-color: var(--grey);
   color:var(--white);
-  border: 1px solid var(--black);
+  border: none;
   font-size: 14px;
   padding: 10px;
-  width: 150px;
-  margin-top:2px;
-  height: 50px;
   text-decoration: none;
-  font-weight:200;
-  transition: width 1s ease-in-out;
+  font-weight:400;
+  width:100%;
+  transition: 1s ease-in-out;
   z-index:1;
 }  
     
 button:hover{
-    background-color:#820000;
-    border: 1px solid var(--grey);
+    color:#820000;
     cursor: pointer;
-    border-style:solid;
+    border-style:none;
     transition: 0.2s ease-in-out;
     z-index:1;
 }
