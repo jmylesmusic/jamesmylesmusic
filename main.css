@@ -363,7 +363,7 @@ footer{
   font-family:var(--font);
   display:grid;
   grid-template-columns:repeat(2, auto);
-  max-width:60%;
+  max-width:500px;
   margin-left:auto;
   margin-right:auto;
 }
