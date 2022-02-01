@@ -6,9 +6,9 @@
   --red: #eb5e28;
   --darkgrey: #403d39;
   --white: #fffcf2;
-  --black: #252422;
+  --black: #252422ef;
   --grey: #ccc5b9;
-  --current: #660000;
+  --darkred: #820000;
 }
 * {
   margin: 0;
@@ -22,7 +22,7 @@ html {
 
 .header{
   position:absolute;
-  background-color: var(--red);
+  background-color: var(--darkred);
   width: 100%;
   font-family: var(--font);
   font-weight:thin;
@@ -84,7 +84,7 @@ a {
 
 .title {
   position:absolute;
-  background-color: var(--red);
+  background-color: var(--darkred);
   color: var(--black);
   column-count:auto;
   font-family:var(--font);
