@@ -22,7 +22,7 @@ html {
 
 .header{
   position:absolute;
-  background-color: var(--darkred);
+  background-color: var(--darred);
   width: 100%;
   font-family: var(--font);
   font-weight:thin;
@@ -84,7 +84,7 @@ a {
 
 .title {
   position:absolute;
-  background-color: var(--darkred);
+  background-color: var(--red);
   color: var(--black);
   column-count:auto;
   font-family:var(--font);
