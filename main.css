@@ -168,17 +168,20 @@ body{
   max-width: 100%;
   height: auto;
   margin:auto;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 1s ease-in-out;
   opacity: 35%;
   border-radius:5px;
   Z-index:0;
 }
 
 #headshot-img:hover{
+  position: absolute;
   opacity: 100%;
-  transition: opacity 1s ease-in-out;
-  left: 10%;
-  right:10%;
+  transition: opacity 1s ease-in;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  z-index:3;
 }
 
 .home-image{
