@@ -17,8 +17,3 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-$( document ).ready(function() {
-    $( "headshot-img" ).click(function() {
-        $(this).toggleClass("click");
-    });
-});
