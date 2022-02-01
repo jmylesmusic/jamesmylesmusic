@@ -363,16 +363,16 @@ footer{
   font-family:var(--font);
   display:grid;
   grid-template-columns:repeat(2, auto);
-  max-width:500px;
+  max-width:600px;
   margin-left:auto;
   margin-right:auto;
 }
 .form-group{
   color:var(--white);
   font-family:var(--font);
-  font-size:12px;
+  font-size:14px;
   margin: 25px auto 1fr auto;
-  padding:0.5rem;
+  padding:1rem;
 }
 
 
@@ -382,6 +382,7 @@ footer{
   font-style:italic;
   font-size:12px;
 }
+
 #dropdown{
   font-family:var(--font);
   color:var(--black);
@@ -392,8 +393,9 @@ footer{
 .form-control{
   display:block;
   border-radius: .25rem;
+  height:25px;
   border-width: 0px 1px 1px 0px;
-  border-color:none;
+  border-color:var(--black);
   text-indent:4px;
 }
 #form-button{
