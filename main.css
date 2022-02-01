@@ -317,12 +317,11 @@ footer{
     margin-right:5%;
     
 }
-  #when {
+  #heading {
     color:var(--white);
     border-bottom:1px solid var(--white);
     font-size:25px;
-    grid-column: 1;
-    grid-row: 1;
+    grid-column-rows:repeate;
   }
   #group {
     color:var(--white);
