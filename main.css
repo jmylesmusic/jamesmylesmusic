@@ -307,9 +307,8 @@ footer{
     font-size: auto;
     font-family:var(--font);
     display:grid;
-    grid-template-columns:auto;
+    grid-template-columns:repeat(4,0fr);
     grid-template-rows:auto;
-    grid-template-columns: repeat(2 1fr);
     gap: 12px;
     margin-top: 20px;
     width:90%;
@@ -321,61 +320,12 @@ footer{
     color:var(--white);
     border-bottom:1px solid var(--white);
     font-size:25px;
-    grid-column-rows:repeate;
   }
-  #group {
-    color:var(--white);
-    font-size:25px;
-    border-bottom:1px solid var(--white);
-    grid-column: 2;
-    grid-row: 1;
+  #info{
+    
   }
-  #where {
-    color:var(--white);
-    font-size:25px;
-    border-bottom:1px solid var(--white);
-    grid-column: 3;
-    grid-row: 1;
-  }
-  #tickets{
-    color:var(--white);
-    border-bottom:1px solid var(--white);
-    font-size:25px;
-      grid-column: 4;
-      grid-row: 1;
-  }
-  #when-one {
-    grid-column: 1;
-    grid-row: 2;    
-  }
-  #group-one {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  #where-one {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  #info-one {
-    grid-column: 4;
-    grid-row: 2;      
-  }
-  #when-two {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  #group-two {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  #where-two {
-    grid-column: 3;
-    grid-row: 3;
-  }
-  #info-two {
-    grid-column: 4;
-    grid-row: 3;      
-  }
+
+
 .footer{
   position: absolute; 
     bottom: 0; 
