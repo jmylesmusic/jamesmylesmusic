@@ -384,6 +384,7 @@ footer{
 }
 
 #dropdown{
+  width:200px;
   font-family:var(--font);
   color:var(--black);
   font-size:14px;
