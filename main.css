@@ -3,11 +3,11 @@
 
 :root{
   --font:'Raleway', sans-serif;
-  --red: #820000;
-  --darkgrey: rgb(050, 050, 050);
-  --white: whitesmoke;
-  --black: #111111;
-  --grey: rgb(065, 062, 062);
+  --red: #eb5e28;
+  --darkgrey: #403d39;
+  --white: #fffcf2;
+  --black: #252422;
+  --grey: #ccc5b9;
   --current: #660000;
 }
 * {
@@ -42,7 +42,7 @@ a {
   display: flex;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color:var(--grey);
+  background-color:var(--darkgrey);
   width:100%;
   margin-top:65px;
 }
@@ -130,7 +130,7 @@ h2 {
 }
 
 body{
-    background-color: var(--darkgrey);
+    background-color: var(--black);
     animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -221,7 +221,7 @@ body{
     flex-direction: column;
     grid-template-columns:repeat(1, 30fr);
     border-radius: 0 0 20px 20px;
-    background-color: var(--grey);
+    background-color: var(--darkgrey);
     width: 100%;
     text-align: center;
     transition: 1s;
@@ -403,7 +403,7 @@ footer{
 #form-button{
   margin-top:15px;
   color:var(--white);
-  background: var(--grey);
+  background: var(--darkgrey);
   border-radius: .5rem;
   height:40px;
 }
@@ -526,7 +526,7 @@ button{
   text-align: center;
   display:-ms-grid;
   display:grid;
-  background-color: var(--grey);
+  background-color: var(--darkgrey);
   color:var(--white);
   border: none;
   font-size: 14px;
@@ -538,7 +538,7 @@ button{
 }  
     
 button:hover{
-    color:#820000;
+    color:var(--red);
     cursor: pointer;
     border-style:none;
     transition: 0.2s ease-in-out;
