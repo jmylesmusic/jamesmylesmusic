@@ -21,7 +21,7 @@ html {
 }
 
 .header{
-  position:absolute;
+  position:sticky;
   background-color: var(--red);
   width: 100%;
   font-family: var(--font);
@@ -49,6 +49,7 @@ a {
 
 .hamburger {
   display: none;
+  position:absolute;
 }
 
 .bar {
@@ -227,12 +228,12 @@ body{
       
   
       .hamburger {
-          position:fixed;
+          position:absolute;
+          z-index:3;
           top: 20px;
           right: 20px;
           display: block;
           cursor: pointer;
-          z-index:3;
       }
   
       .hamburger.active .bar:nth-child(2) {
