@@ -22,6 +22,7 @@ html {
 
 .header{
   position:absolute;
+  top:0;
   background-color: var(--darred);
   width: 100%;
   font-family: var(--font);
