@@ -536,22 +536,16 @@ fieldset{
   grid-area: students;
 }
 #big-heading{
-  position:justify;
   color:var(--white);
   font-family:var(--font);
   font-weight: 400;
-  margin-left: 10px;
-  font-size:25px;
-  padding-top:40px;
+  font-size:25px
 }
 #list-head{
   font-family:var(--font);
   font-size:18px;
   color:var(--white);
   font-weight:600;
-  text-align:justify;
-  margin-left:20px;
-  padding-top:30px;
 }
 #paragraph{
   font-weight:300;
