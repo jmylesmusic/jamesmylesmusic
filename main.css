@@ -527,12 +527,15 @@ fieldset{
   font-family:var(--font);
   font-weight: 400;
   font-size:25px;
+  padding-left:10px;
+
 }
 .list-head{
   font-family:var(--font);
   font-size:18px;
   color:var(--white);
   font-weight:600;
+  padding-left:15px;
 }
 .paragraph{
   font-weight:300;
@@ -543,20 +546,21 @@ fieldset{
 .container {  
   margin-top:150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
-    "about-me about-me field"
-    "students students students"
-    "students students students";
+    "about-me field"
+    "students students"
+    "students students";
 }
 
 .about-me { grid-area: about-me; }
 
-.students { grid-area: students; }
+.students { grid-area: students; 
+justify-self:inherit;}
 
 .field {
   justify-self: stretch;
