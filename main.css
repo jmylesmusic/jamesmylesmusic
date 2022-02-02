@@ -426,6 +426,7 @@ footer{
 }
 
 figure{
+  width:90%;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
@@ -443,8 +444,7 @@ figure{
 
 #bio-img{
   display:block;
-  min-width:50vw;
-  max-width:400px;
+  width:100%;
   height:auto;  
   margin-left: auto;
   margin-right: auto;
@@ -549,7 +549,8 @@ fieldset{
   font-weight:300;
   font-size:14px;
   padding-left: 20px;
-  padding-bottom: 5px;  
+  padding-bottom: 5px;
+  width:100%;  
 }
 
 .container {  
@@ -561,13 +562,14 @@ fieldset{
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
-    "about-me about-me"
-    "students field";
+    "about-me field"
+    "students students";
 }
 
 .about-me { grid-area: about-me; }
 
-.students { grid-area: students;}
+.students { grid-area: students;
+justify-}
 
 .field {
   justify-self: stretch;
