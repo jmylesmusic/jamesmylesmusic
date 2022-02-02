@@ -551,3 +551,7 @@ fieldset{
   margin-right:5%;
   border:none;
 }
+
+.container{
+  grid-template-columns:;
+}
