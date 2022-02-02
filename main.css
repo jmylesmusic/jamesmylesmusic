@@ -31,6 +31,7 @@ html {
 }
 
 li {
+  color:white;
     list-style: none;
 }
 
@@ -549,11 +550,16 @@ fieldset{
   border:none;
 }
 
-.about-me{
+.about-me {
   grid-area: about;
-  }
+}
 
-.container{
+.field {
+  grid-area
+}
+
+
+.container {
   display:grid;
   grid-template-areas:
     'about about about'
