@@ -426,14 +426,11 @@ footer{
 }
 
 figure{
-  display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
   float: right;
-  min-width:40%;
-  max-width:400px;
   text-align: center;
   font-size: larger;
   text-indent: 0;
@@ -543,3 +540,26 @@ fieldset{
   font-size:16px;
 }
 
+.container {  
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  align-items: stretch;
+  grid-template-areas:
+    "about-me about-me about-me about-me"
+    "students students field field"
+    "students students field field"
+    "students students field field";
+}
+
+.about-me { grid-area: about-me; }
+
+.students { grid-area: students; }
+
+.field {
+  justify-self: stretch;
+  grid-area: field;
+}
