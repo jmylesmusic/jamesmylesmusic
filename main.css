@@ -555,6 +555,7 @@ fieldset{
 .container{
   display:grid;
   grid-template-areas:
-    'about about'
-    'student field'
+    'about about about'
+    'student student field'
+    'student student student'
 }
