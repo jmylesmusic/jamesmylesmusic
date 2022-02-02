@@ -443,8 +443,9 @@ figure{
 
 #bio-img{
   display:block;
-  width: auto;  
-  height: 75vh;
+  min-width:50vw;
+  max-width:400px;
+  height:auto;  
   margin-left: auto;
   margin-right: auto;
 }
