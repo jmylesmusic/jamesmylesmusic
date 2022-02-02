@@ -562,14 +562,14 @@ fieldset{
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
-    "about-me field"
-    "students students";
+    "about-me about-me"
+    "students field";
 }
 
 .about-me { grid-area: about-me; }
 
 .students { grid-area: students;
-justify-}
+justify-self:auto;}
 
 .field {
   justify-self: stretch;
