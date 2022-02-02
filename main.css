@@ -31,12 +31,12 @@ html {
 }
 
 li {
-  color:white;
-    list-style: none;
+  color:var(--white);
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar {
@@ -555,9 +555,11 @@ fieldset{
 }
 
 .field {
-  grid-area
+  grid-area: field;
 }
-
+.students {
+  grid-area: students;
+}
 
 .container {
   display:grid;
