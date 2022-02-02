@@ -437,6 +437,7 @@ figure{
   border: thin silver solid;
   margin: 1em;
   padding: 1em;
+  margin-right:5%;
   background: var(--black);
 }
 
@@ -536,23 +537,21 @@ fieldset{
 .paragraph{
   font-weight:300;
   font-size:16px;
-  padding-left: 20px;
-  width: 1fr;
+  padding: 20px;
 }
 
 .container {  
   margin-top:150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
-    "about-me about-me about-me about-me"
-    "students students field field"
-    "students students field field"
-    "students students field field";
+    "about-me about-me field"
+    "students students students"
+    "students students students";
 }
 
 .about-me { grid-area: about-me; }
