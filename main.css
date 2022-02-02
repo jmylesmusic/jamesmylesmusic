@@ -413,32 +413,6 @@ footer{
   color:var(--red);
   background:var(--white);
 }
-.big-heading{
-  position:justify;
-  color:var(--white);
-  font-family:var(--font);
-  font-weight: 400;
-  margin-left: 10px;
-  font-size:25px;
-  padding-top:40px;
-}
-.list-head{
-  font-family:var(--font);
-  font-size:18px;
-  color:var(--white);
-  font-weight:600;
-  text-align:justify;
-  margin-left:20px;
-  padding-top:30px;
-}
-.paragraph{
-  font-weight:300;
-  font-size:16px;
-  text-align:justify;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top:10px;
-}
 
 .list{
   font-family:var(--font);
@@ -561,18 +535,43 @@ fieldset{
 .students {
   grid-area: students;
 }
+#big-heading{
+  position:justify;
+  color:var(--white);
+  font-family:var(--font);
+  font-weight: 400;
+  margin-left: 10px;
+  font-size:25px;
+  padding-top:40px;
+}
+#list-head{
+  font-family:var(--font);
+  font-size:18px;
+  color:var(--white);
+  font-weight:600;
+  text-align:justify;
+  margin-left:20px;
+  padding-top:30px;
+}
+#paragraph{
+  font-weight:300;
+  font-size:16px;
+}
 
 .container {
   display:grid;
   grid-template-areas:
-    'about about about'
-    'about about about'
-    'students students field'
-    'students students field'
+    'about about about about'
+    'about about about about'
+    'students students field field'
+    'students students field field'
     'students students students'
     'students students students';
+  padding: 10px;
+  grid-gap:10px;
 }
 
 .container > div {
-  text-align: inherit;
+  text-align: center;
+  padding: 20px;
 }
