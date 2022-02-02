@@ -549,6 +549,10 @@ fieldset{
   border:none;
 }
 
+.about-me{
+  grid-area: about;
+  }
+
 .container{
   display:grid;
   grid-template-areas:
