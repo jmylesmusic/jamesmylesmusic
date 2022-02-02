@@ -543,24 +543,30 @@ fieldset{
   padding: 20px;
 }
 
+.listpara{
+  font-weight:300;
+  font-size:16px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;  
+}
+
 .container {  
   margin-top:150px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   gap: 10px 10px;
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
     "about-me field"
-    "students students"
     "students students";
 }
 
 .about-me { grid-area: about-me; }
 
-.students { grid-area: students; 
-justify-self:inherit;}
+.students { grid-area: students;}
 
 .field {
   justify-self: stretch;
