@@ -47,6 +47,7 @@ a {
   background-color:var(--darkgrey);
   width:100%;
   margin-top:65px;
+  transform: rotateX(-50%);
 }
 
 .hamburger {
@@ -567,12 +568,16 @@ fieldset{
 }
 
 .about-me { 
-  grid-area: about-me; }
+  grid-area: about-me; 
+}
 
-.students { grid-area: students;
-justify-self:auto;}
+.students { 
+  grid-area: students;
+  justify-self:auto;
+}
 
 .field {
   justify-self: stretch;
   grid-area: field;
 }
+
