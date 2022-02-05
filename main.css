@@ -5,7 +5,7 @@
   --font:'Raleway', sans-serif;
   --white: #fffcf2;
   --grey: #ccc5b9;
-  --red: #b7543c;
+  --red: #e5383b;
   --darkgrey: #403d39;
   --black: #252422ef;
   --darkred: #820000;
@@ -566,7 +566,8 @@ fieldset{
     "students field";
 }
 
-.about-me { grid-area: about-me; }
+.about-me { 
+  grid-area: about-me; }
 
 .students { grid-area: students;
 justify-self:auto;}
