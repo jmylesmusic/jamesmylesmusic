@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-.navbar {
+.navbar-index {
   position:absolute;
   display: flex;
   align-items: center;
@@ -49,6 +49,17 @@ a {
   margin-top:65px;
   animation-name: unfold;
   animation-duration: 2s;
+}
+
+.navbar {
+  position:absolute;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color:var(--darkgrey);
+  width:100%;
+  margin-top:65px;
+  height:45px;
 }
 
 .hamburger {
@@ -585,9 +596,9 @@ fieldset{
 
 @keyframes unfold {
   0% {
-    margin-top: 0px;
+    height:0px;
   }
   100%{
-    margin-top:65px;
+    height:45px;
   }
 }
