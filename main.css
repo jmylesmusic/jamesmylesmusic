@@ -39,18 +39,6 @@ a {
   text-decoration: none;
 }
 
-.navbar-index {
-  position:absolute;
-  display: flex;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  background-color:var(--darkgrey);
-  width:100%;
-  margin-top:65px;
-  animation-name: unfold;
-  animation-duration: 2s;
-  animation-fill-mode:forwards;
-}
 
 .navbar {
   position:absolute;
@@ -60,6 +48,7 @@ a {
   background-color:var(--darkgrey);
   width:100%;
   margin-top:65px;
+  height:45px;
 }
 
 .hamburger {
@@ -84,7 +73,6 @@ a {
   align-items: center;
   text-align:center;
   width:100%;
-  
 }
 
 .nav-link{
@@ -594,11 +582,6 @@ fieldset{
   grid-area: field;
 }
 
-@keyframes unfold {
-  0% {
-    margin-top:0px;
-  }
-  100%{
-    margin-top:68px;
-  }
+.indent {
+  padding-top: 125px";
 }
