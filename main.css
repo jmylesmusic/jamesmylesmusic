@@ -47,7 +47,8 @@ a {
   background-color:var(--darkgrey);
   width:100%;
   margin-top:65px;
-  transform: rotateX(-50%);
+  animation-delay:1s;
+  animation-name: unfold;
 }
 
 .hamburger {
@@ -581,3 +582,11 @@ fieldset{
   grid-area: field;
 }
 
+@keyframes unfold {
+  0% {
+    background-color: white;
+  }
+  100%{
+    background-color:blue;
+  }
+}
