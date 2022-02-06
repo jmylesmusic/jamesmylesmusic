@@ -583,5 +583,6 @@ fieldset{
 }
 
 .indent {
-  padding-top: 125px";
+  position:relative;
+  margin-top: 125px;
 }
