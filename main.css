@@ -52,6 +52,12 @@ a {
   width:100%;
   margin-top:65px;
   height:45px;
+  animation: foldIn 2s;
+  animation-iteration-count: 1;
+  animation-delay:2s;
+}
+@keyframes foldIn {
+  transform: rotateX(90deg);
 }
 
 .hamburger {
