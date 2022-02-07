@@ -17,17 +17,20 @@
 }
 html {
   font-size: 62.5%;
-  font-family: var(--font)
+  font-family: var(--font);
+  scroll-behavior: smooth;
 }
 
 .header{
   position:absolute;
   top:0;
-  background-color: var(--darred);
+  background-color: var(--red);
   width: 100%;
   font-family: var(--font);
   font-weight:thin;
   left:0;
+  height: 60px;
+  z-index:3;
 }
 
 li {
