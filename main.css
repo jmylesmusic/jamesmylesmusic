@@ -50,14 +50,19 @@ a {
   padding: 1rem 1.5rem;
   background-color:var(--darkgrey);
   width:100%;
-  margin-top:65px;
-  height:45px;
-  animation: foldIn 2s;
+  animation: foldIn 2s forwards;
   animation-iteration-count: 1;
   animation-delay:2s;
 }
 @keyframes foldIn {
-  transform: rotateX(90deg);
+  0% {
+    margin-top:0px;
+    height:0px;
+  }
+  100% {
+    margin-top:65px;
+    height:45px;
+  }
 }
 
 .hamburger {
@@ -243,6 +248,7 @@ body{
   .nav-item {
      margin: 2.5rem;
      left:0;
+     
   }
     
   .hamburger {
