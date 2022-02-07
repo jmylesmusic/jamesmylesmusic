@@ -42,7 +42,6 @@ a {
   text-decoration: none;
 }
 
-
 .navbar {
   position:absolute;
   display: flex;
@@ -50,17 +49,31 @@ a {
   padding: 1rem 1.5rem;
   background-color:var(--darkgrey);
   width:100%;
-  animation: foldIn 2s forwards;
+  height:45px;
+  margin-top:65px;
+}
+
+.navbar-index {
+  position:absolute;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color:var(--darkgrey);
+  width:100%;
+  animation: foldIn 1s forwards;
   animation-iteration-count: 1;
   animation-delay:2s;
 }
+
 @keyframes foldIn {
   0% {
     margin-top:0px;
+    transform:rotateX(-90deg);
     height:0px;
   }
   100% {
     margin-top:65px;
+    transform:rotateX(0deg);
     height:45px;
   }
 }
@@ -222,6 +235,7 @@ body{
   .navbar{
       margin-top:-100px;
       left:0;
+      animation:none;
   }
   
   .nav-menu {
