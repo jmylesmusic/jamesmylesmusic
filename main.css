@@ -347,7 +347,7 @@ footer{
   font-family:var(--font);
   text-align: center;
   padding-top:75px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .events{
@@ -450,7 +450,7 @@ footer{
 }
 
 figure{
-  max-width:50vw;
+  width:auto;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
@@ -475,8 +475,7 @@ figure{
 
 #studio{
   display:block;
-  max-width:45vw;
-  max-height:50vh;  
+  max-width:85vw;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -582,7 +581,7 @@ fieldset{
   font-weight:300;
   font-size:14px;
   padding-left: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .container {  
