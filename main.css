@@ -575,23 +575,25 @@ fieldset{
 
 .listpara{
   text-align:justify;
+  width:100%;
   font-weight:300;
   font-size:14px;
   padding-left: 20px;
-  padding-bottom: 5px;  
+  padding-bottom: 5px;
 }
 
 .container {  
   margin-top:150px;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   gap: 10px 10px;
   grid-auto-flow: row;
   align-items: stretch;
   grid-template-areas:
     "about-me about-me"
-    "students field";
+    "playing playing"
+    "students1 joefield";
 }
 
 .about-me { 
@@ -601,11 +603,13 @@ fieldset{
 .students { 
   grid-area: students;
   justify-self:auto;
+  z-index:0;
 }
 
-.field {
+.joefield {
   justify-self: stretch;
   grid-area: field;
+  z-index:0;
 }
 
 .indent {
