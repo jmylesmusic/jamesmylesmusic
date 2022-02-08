@@ -340,16 +340,17 @@ p{
 }
 
 footer{
-    color:var(--white);
-    font-family:var(--font);
-    text-align: center;
-    margin-top: 75px;
+  display:block;
+  color:var(--white);
+  font-family:var(--font);
+  text-align: center;
+  margin-top: 75px;
 }
 
 .events{
-    color: var(--white);
-    font-size: auto;
-    font-family:var(--font);
+  color: var(--white);
+  font-size: auto;
+  font-family:var(--font);
     display:grid;
     grid-template-columns:repeat(4,auto);
     grid-template-rows:auto;
@@ -369,14 +370,6 @@ footer{
     font-size:13px;
   }
 
-
-.footer{
-  position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    text-align: center;
-}
 #description{
   color:var(--white);
   font-family:var(--font);
@@ -454,7 +447,7 @@ footer{
 }
 
 figure{
-  width:auto;
+  max-width:50vw;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
@@ -479,7 +472,7 @@ figure{
 
 #studio{
   display:block;
-  max-width:90vw;
+  max-width:45vw;
   max-height:50vh;  
   margin-left: auto;
   margin-right: auto;
