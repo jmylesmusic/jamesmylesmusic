@@ -341,24 +341,27 @@ p{
 
 footer{
   display:block;
+  margin-left:auto;
+  margin-right:auto;
   color:var(--white);
   font-family:var(--font);
   text-align: center;
-  margin-top: 75px;
+  padding-top:75px;
+  margin-bottom: 0;
 }
 
 .events{
   color: var(--white);
   font-size: auto;
   font-family:var(--font);
-    display:grid;
-    grid-template-columns:repeat(4,auto);
-    grid-template-rows:auto;
-    gap: 12px;
-    margin-top: 20px;
-    width:90%;
-    margin-left:5%;
-    margin-right:5%;
+  display:grid;
+  grid-template-columns:repeat(4,auto);
+  grid-template-rows:auto;
+  gap: 12px;
+  margin-top: 20px;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
     
 }
   #heading {
