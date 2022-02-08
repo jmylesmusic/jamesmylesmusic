@@ -627,3 +627,57 @@ fieldset{
   position:relative;
   margin-top: 125px;
 }
+
+input[type=email]{
+  width: 40vw;
+  padding: 12px 20px;
+  color: red;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+
+input[type=submit]{
+  width: 10vw;
+  color: red;
+  box-sizing: border-box;
+  padding: 12px 20px;
+}
+
+#lessons{
+  display:inline-block;
+  color: var(--white);
+  
+}
+
+table{
+  table-layout:fixed;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid var(--white);
+}
+th,td{
+border: 1px solid var(--white);
+}
+
+#table{
+  display:inline-table;
+  padding: 8px;
+}
+
+#table-head{
+  font-size:22px;
+}
+
+#table-content{
+  font-size:14px;
+}
+
+.container-inq{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
