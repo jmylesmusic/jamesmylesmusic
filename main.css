@@ -468,11 +468,12 @@ figure{
   padding: 1em;
   margin-right:5%;
   background: var(--black);
+  width:fit-content;
 }
 
 #bio-img{
   display:block;
-  max-height:auto;  
+  max-height:600px;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -573,11 +574,11 @@ fieldset{
 }
 
 .listpara{
+  text-align:justify;
   font-weight:300;
   font-size:14px;
   padding-left: 20px;
-  padding-bottom: 5px;
-  width:100%;  
+  padding-bottom: 5px;  
 }
 
 .container {  
