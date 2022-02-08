@@ -68,14 +68,12 @@ a {
 @keyframes foldIn {
   0% {
     margin-top:0px;
-    transform:rotateY(-90deg);
-    transform:rotateX(-90deg);
+    transform:rotate3d(180deg, 180deg, 0deg);
+    transform:scale3d(1, 0, 0.25);
     height:0px;
   }
   100% {
     margin-top:65px;
-    transform:rotateY(0deg);
-    transform:rotateX(0deg);
     height:45px;
   }
 }
