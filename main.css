@@ -62,7 +62,7 @@ a {
   width:100%;
   animation: foldIn 1s forwards;
   animation-iteration-count: 1;
-  animation-delay:2s;
+  animation-delay:1s;
 }
 
 @keyframes foldIn {
@@ -235,8 +235,13 @@ body{
   .navbar{
       margin-top:-100px;
       left:0;
-      animation:none;
   }
+
+  .navbar-index{
+    margin-top:-100px;
+    left:0;
+    animation:none;
+}
   
   .nav-menu {
     position: fixed;
