@@ -473,7 +473,14 @@ figure{
 
 #bio-img{
   display:block;
-  max-height:600px;  
+  max-height:500px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#studio{
+  display:block;
+  max-width:90vw;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -544,7 +551,7 @@ button:hover{
     z-index:1;
 }
 fieldset{
-  width:90%;
+  width:100%;
   margin-left:5%;
   margin-right:5%;
   border:none;
@@ -592,7 +599,7 @@ fieldset{
   align-items: stretch;
   grid-template-areas:
     "about-me about-me"
-    "playing playing"
+    "studio studio"
     "students1 joefield"
     "students2 students2";
 }
@@ -612,9 +619,12 @@ fieldset{
 }
 
 .joefield {
-  justify-self: stretch;
   grid-area: joefield;
-  z-index:0;
+  justify-self: auto;
+}
+.studio {
+  grid-area:studio;
+  justify-self:auto;
 }
 
 .indent {
