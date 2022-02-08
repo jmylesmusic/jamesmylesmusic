@@ -454,7 +454,7 @@ footer{
 }
 
 figure{
-  width:90%;
+  width:auto;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
@@ -468,7 +468,6 @@ figure{
   padding: 1em;
   margin-right:5%;
   background: var(--black);
-  width:fit-content;
 }
 
 #bio-img{
@@ -480,7 +479,8 @@ figure{
 
 #studio{
   display:block;
-  max-width:90vw;  
+  max-width:90vw;
+  max-height:50vh;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -622,7 +622,7 @@ fieldset{
   grid-area: joefield;
   justify-self: auto;
 }
-.studio {
+.eos {
   grid-area:studio;
   justify-self:auto;
 }
