@@ -719,5 +719,10 @@ border: 1px solid var(--white);
   margin-top:115px;
   padding:15px;
   font-weight:100;
-  text-transform:uppercase;
+  text-transform:capitalize;
+}
+
+hr{
+  text-align: center;
+  width:90%;
 }
