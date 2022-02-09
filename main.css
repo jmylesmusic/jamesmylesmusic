@@ -189,7 +189,7 @@ body{
   padding: 0;
 }
 
-#headshot-img{
+.headshot-img{
   display:auto;
   max-width: 100%;
   height: auto;
@@ -200,7 +200,7 @@ body{
   Z-index:0;
 }
 
-#headshot-img:hover{
+.headshot-img:hover{
   opacity: 100%;
   transition: opacity 1s ease-out;
   z-index:3;
@@ -360,12 +360,13 @@ footer{
   margin-right:5%;
     
 }
-  #heading {
+.heading {
     color:var(--white);
     border-bottom:1px solid var(--white);
     font-size:25px;
-  }
-  #info{
+}
+
+.info{
     font-size:13px;
   }
 
