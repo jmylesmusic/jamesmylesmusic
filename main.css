@@ -595,7 +595,7 @@ fieldset{
 
 .container {  
   display:-ms-grid;
-  display: grid;
+  display:grid;
   margin-left:auto;
   margin-right:auto;
   grid-template-columns: auto auto;
@@ -749,6 +749,13 @@ hr {
 }
 iframe {
   padding-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.recordings-container{
+  display:block;
+  width:75%
   margin-left:auto;
   margin-right:auto;
 }
