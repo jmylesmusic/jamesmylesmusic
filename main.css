@@ -222,7 +222,6 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-  
   .header{
     position:fixed;
     z-index:2;
@@ -237,59 +236,59 @@ body{
       margin-top:-100px;
       left:0;
   }
-
+  
   .navbar-index{
     margin-top:-100px;
     left:0;
     animation:none;
   }
-}
-
-.nav-menu {
-  position: fixed;
-  left:0;
-  top: -150%;
-  flex-direction: column;
-  grid-template-columns:repeat(1, 30fr);
-  border-radius: 0 0 20px 20px;
-  background-color: var(--darkgrey);
-  width: 100%;
-  text-align: center;
-  transition: 1s;
-  z-index:-1;
-}
-      
-.nav-menu.active {
-  position:fixed;
-  left:0;
-  top:64px;
-  z-index:1;        
-}
-      
-.nav-item {
-  margin: 2.5rem;
-  left:0;     
-}
-    
-.hamburger {
-  position:fixed;
-  top: 20px;
-  right: 20px;
-  display: block;
-  cursor: pointer;
-  z-index:3;
-}
   
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
+  .nav-menu {
+    position: fixed;
+    left:0;
+    top: -150%;
+    flex-direction: column;
+    grid-template-columns:repeat(1, 30fr);
+    border-radius: 0 0 20px 20px;
+    background-color: var(--darkgrey);
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    z-index:-1;
+  }   
   
-.hamburger.active .bar:nth-child(1) {
+  .nav-menu.active {
+    position:fixed;
+    left:0;
+    top:64px;
+    z-index:1;        
+  }   
+  
+  .nav-item {
+     margin: 2.5rem;
+     left:0;
+  } 
+  
+  .hamburger {
+    position:fixed;
+    z-index:3;
+    top: 20px;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-}
+  }
   
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
 
 @keyframes fadeIn {
@@ -347,10 +346,11 @@ footer{
 }
 
 .events{
+  display:-ms-grid;
+  display:grid;
   color: var(--white);
   font-size: auto;
   font-family:var(--font);
-  display:grid;
   grid-template-columns:repeat(4,auto);
   grid-template-rows:auto;
   gap: 12px;
@@ -382,10 +382,11 @@ footer{
 }
 
 #survey-form{
-  color:var(--white);
-  font-family:var(--font);
+  display:-ms-grid;
   display:grid;
   grid-template-columns:repeat(2, auto);
+  color:var(--white);
+  font-family:var(--font);
   max-width:600px;
   margin-left:auto;
   margin-right:auto;
@@ -582,8 +583,9 @@ fieldset{
 }
 
 .container {  
-  margin-top:150px;
+  display:-ms-grid;
   display: grid;
+  margin-top:150px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
   gap: 10px 10px;
