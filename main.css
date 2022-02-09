@@ -739,3 +739,8 @@ hr {
   max-width:800px;
   min-width:75%;
 }
+iframe {
+  padding-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
