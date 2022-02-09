@@ -713,6 +713,7 @@ border: 1px solid var(--white);
 }
 
 .content-head{
+  color:var(--white);
   position:relative;
   font-family: var(--font);
   font-size:30px;
@@ -720,8 +721,8 @@ border: 1px solid var(--white);
   padding:15px 0px;
   font-weight:100;
   text-transform:capitalize;
-  max-width:50vw;
-  min-width:800px;
+  max-width:800px;
+  min-width:75%;
   margin-left:auto;
   margin-right:auto;
 }
@@ -732,7 +733,7 @@ hr {
   margin-left:auto;
   margin-right:auto;
   position:relative;
-  overflow:hidden;
-  max-width:50vw;
-  min-width:800px;
+  overflow:auto;
+  max-width:800px;
+  min-width:75%;
 }
