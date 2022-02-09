@@ -16,3 +16,7 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+function highlightPage {
+    let bio = document.querySelector.
+}
