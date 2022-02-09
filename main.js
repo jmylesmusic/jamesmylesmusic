@@ -17,9 +17,13 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+    newFunction();
+function newFunction() {
     let bio = document.getElementsByName('title');
-    if (bio.textContent.includes('Biography')){
+    if (bio.textContent.includes('Biography')) {
         console.log('Hi mom');
     } else {
         console.log('sad panda');
     }
+}
+
