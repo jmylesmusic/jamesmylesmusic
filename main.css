@@ -623,7 +623,7 @@ fieldset{
 
 .indent {
   position:relative;
-  margin-top: 125px;
+  margin-top: 0px;
 }
 
 input[type=email]{
