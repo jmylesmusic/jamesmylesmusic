@@ -17,6 +17,5 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-function highlightPage {
-    let bio = document.querySelector.
-}
+    let bio = document.getElementsByName('title');
+    if (bio.textContent.includes('Biography'));
