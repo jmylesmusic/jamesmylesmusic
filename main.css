@@ -573,7 +573,13 @@ fieldset{
 .paragraph{
   font-weight:300;
   font-size:16px;
-  text-rendering:
+  text-align: justify;
+  text-indent:45px;
+  min-width:75%;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:15px;
 }
 
 .listpara{
@@ -588,8 +594,6 @@ fieldset{
 .container {  
   display:-ms-grid;
   display: grid;
-  min-width:75%;
-  max-width:800px;
   margin-left:auto;
   margin-right:auto;
   grid-template-columns: auto auto;
