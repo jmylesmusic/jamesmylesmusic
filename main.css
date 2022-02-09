@@ -451,17 +451,17 @@ footer{
 
 figure{
   display:block;
-  min-width:75%;
-  max-width:800px;
-  margin-block-start: auto;
-  margin-block-end: auto;
+  max-width:740px; !important
+  min-width:70vw;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   margin-inline-start: auto;
   margin-inline-end: auto;
   float:center;
   text-align: center;
-  font-size: larger;
+  font-size: 14px;
   text-indent: 0;
-  border: thin silver solid;
+  border: thin var(--grey) solid;
   padding: 1em;
   margin-bottom:50px;
   background: var(--black);
@@ -478,8 +478,8 @@ figure{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  min-width:70%;
-  max-width:760px;
+  max-width:700px;
+  min-width:65%;
 }
 
 .img-caption{
