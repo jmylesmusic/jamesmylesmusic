@@ -355,9 +355,11 @@ footer{
   grid-template-rows:auto;
   gap: 12px;
   margin-top: 20px;
-  width:90%;
-  margin-left:5%;
-  margin-right:5%;
+  max-width:800px;
+  min-width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
     
 }
 .heading {
