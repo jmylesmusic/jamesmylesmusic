@@ -717,9 +717,13 @@ border: 1px solid var(--white);
   font-family: var(--font);
   font-size:30px;
   margin-top:115px;
-  padding:15px;
+  padding:15px 0px;
   font-weight:100;
   text-transform:capitalize;
+  max-width:50vw;
+  min-width:800px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 hr {
@@ -728,6 +732,7 @@ hr {
   margin-left:auto;
   margin-right:auto;
   position:relative;
-  overflow:visable;
-  width:90vw;
+  overflow:hidden;
+  max-width:50vw;
+  min-width:800px;
 }
