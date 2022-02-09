@@ -481,7 +481,7 @@ figure{
   max-width:85vw;  
 }
 
-#img-caption{
+.img-caption{
   font-family:var(--font);
   color:var(--white);
   font-weight:normal;
@@ -674,8 +674,8 @@ table{
   text-align: center;
   border-collapse: collapse;
   border: 1px solid var(--white);
-  padding-top:50px;
 }
+
 th,td{
 border: 1px solid var(--white);
 }
@@ -704,3 +704,12 @@ border: 1px solid var(--white);
 #minutes{
   width: 100%;
   }
+
+.indent {
+  padding-top:125px;
+} 
+
+.calendly-inline-widget {
+  max-width:60vw;
+  height:800px;
+}
