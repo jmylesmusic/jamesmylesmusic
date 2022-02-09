@@ -588,6 +588,10 @@ fieldset{
 .container {  
   display:-ms-grid;
   display: grid;
+  min-width:75%;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
   margin-top:150px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
