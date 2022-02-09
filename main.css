@@ -722,7 +722,12 @@ border: 1px solid var(--white);
   text-transform:capitalize;
 }
 
-hr{
-  text-align: center;
-  width:90%;
+hr {
+  display:block;
+  align-self:center;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  overflow:visable;
+  width:90vw;
 }
