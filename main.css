@@ -594,7 +594,7 @@ fieldset{
 
 .about-me { 
   display:flexbox;
-  justify-self:auto; 
+  justify-self:auto;
   margin:1em;
 }
 
