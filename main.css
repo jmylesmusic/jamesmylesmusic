@@ -454,7 +454,6 @@ footer{
 }
 
 figure{
-  display:flexbox;
   float:auto;
   text-align: center;
   font-size: 14px;
@@ -463,33 +462,30 @@ figure{
   padding: 1em;
   margin-bottom:50px;
   background: var(--black);
-  max-height:440px;
-  width:auto;
 
 }
 
 .joefield {
   display:flexbox;
-  justify-self: auto;
-  max-width:400px;
-  height:110%;
-  padding-inline: 10px;
+  margin:1em;
+  justify-self:auto;
+  max-height:400px;
+  max-width:min(80vw,600px);
   margin-left:auto;
   margin-right:auto;
 }
 
 #bio-img{
-  display:inline-flexbox;
+  display:block;
   max-width:95%;
   max-height:95%;
   margin-left: auto;
   margin-right: auto;
 }
 .eos {
-  margin:1em;
   display:flexbox;
+  margin:1em;
   justify-self:auto;
-  margin-top:120px;
   max-width:min(80vw,600px);
   margin-left:auto;
   margin-right:auto;
@@ -596,6 +592,7 @@ fieldset{
   text-decoration: underline;
 }
 .paragraph{
+  display:flexbox;
   font-weight:300;
   font-size:16px;
   text-align: justify;
@@ -608,6 +605,7 @@ fieldset{
 }
 
 .listpara{
+  display:flexbox;
   text-align:justify;
   width:100%;
   font-weight:300;
@@ -618,14 +616,14 @@ fieldset{
 
 .container {  
   display:flex;
-  flex-flow:row wrap;
+  flex-flow:wrap;
   width:90vw;
   margin-left:auto;
   margin-right:auto;
   margin-top:140px;
 }
 
-.container > *{
+.container > * {
   flex:1 100%;  
 }
 
