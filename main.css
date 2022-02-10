@@ -466,7 +466,7 @@ figure{
 }
 
 .joefield {
-  display:flexbox;
+  display:flex;
   margin:1em;
   justify-self:auto;
   max-height:400px;
@@ -483,7 +483,7 @@ figure{
   margin-right: auto;
 }
 .eos {
-  display:flexbox;
+  display:flex;
   margin:1em;
   justify-self:auto;
   max-width:min(80vw,600px);
@@ -495,7 +495,8 @@ figure{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  max-width:min(75vw,540px);
+  max-width:95%;
+  max-height:95%;
 }
 
 .img-caption{
@@ -592,7 +593,6 @@ fieldset{
   text-decoration: underline;
 }
 .paragraph{
-  display:flexbox;
   font-weight:300;
   font-size:16px;
   text-align: justify;
@@ -605,7 +605,6 @@ fieldset{
 }
 
 .listpara{
-  display:flexbox;
   text-align:justify;
   width:100%;
   font-weight:300;
@@ -616,15 +615,11 @@ fieldset{
 
 .container {  
   display:flex;
-  flex-flow:wrap;
+  flex-flow:row wrap;
   width:90vw;
   margin-left:auto;
   margin-right:auto;
   margin-top:140px;
-}
-
-.container > * {
-  flex:1 100%;  
 }
 
 .about-me { 
@@ -647,6 +642,7 @@ fieldset{
 
 
 .indent{
+  display:flexbox;
   position:relative;
   top: 0px;
 }
