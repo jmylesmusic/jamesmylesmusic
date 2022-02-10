@@ -594,22 +594,12 @@ fieldset{
 }
 
 .container {  
-  display:-ms-grid;
-  display:grid;
+  display:flex;
+  width:90vw;
+  overflow:hidden;
   margin-left:auto;
   margin-right:auto;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  align-items: stretch;
-  grid-template-areas:
-    "about-me about-me"
-    "studio studio"
-    "students1 joefield"
-    "students2 students2";
-}
-
+  
 .about-me { 
   grid-area: about-me; 
 }
@@ -625,8 +615,10 @@ fieldset{
 }
 
 .joefield {
+  display: flexbox;
   grid-area: joefield;
   justify-self: auto;
+  width:45%;
 }
 .eos {
   grid-area:studio;
