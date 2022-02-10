@@ -453,8 +453,6 @@ footer{
 
 figure{
   display:block;
-  max-width:740px; !important
-  min-width:70vw;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: auto;
@@ -633,6 +631,10 @@ fieldset{
 .eos {
   grid-area:studio;
   justify-self:auto;
+  max-width:740px;
+  min-width:70vw;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .indent {
