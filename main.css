@@ -361,17 +361,20 @@ footer{
   min-width:75%;
   margin-left:auto;
   margin-right:auto;
+  margin-top:5%;
 }
-    
-}
+
 .heading {
-    color:var(--white);
-    border-bottom:1px solid var(--white);
-    font-size:25px;
+  color:var(--white);
+  border-bottom:1px solid var(--white);
+  font-size:25px;
+  font-style: italic;
+  font-weight:200;
 }
 
 .info{
-    font-size:13px;
+  font-size:15px;
+  font-weight:200;
   }
 
 #description{
@@ -573,7 +576,7 @@ fieldset{
   padding-left:15px;
   padding-bottom:20px;
   padding-top: 25px;
-  font-
+  text-decoration: underline;
 }
 .paragraph{
   font-weight:300;
