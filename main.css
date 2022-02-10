@@ -454,6 +454,7 @@ footer{
 }
 
 figure{
+  float:auto;
   text-align: center;
   font-size: 14px;
   text-indent: 0;
@@ -732,8 +733,8 @@ border: 1px solid var(--white);
 } 
 
 .calendly-inline-widget {
-  max-width:60vw;
-  height:800px;
+  max-width:80vw;
+  height:auto;
   margin-left:auto;
   margin-right:auto;
 }
@@ -770,7 +771,7 @@ iframe {
 
 .recordings-container{
   display:grid;
-  width:75vw;
+  width:100%;
   margin-left:auto;
   margin-right:auto;
 }
