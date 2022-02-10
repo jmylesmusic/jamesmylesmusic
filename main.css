@@ -560,7 +560,7 @@ fieldset{
   font-family:var(--font);
   font-weight: 400;
   font-size:25px;
-  padding-left:10px;
+  padding-left:15px;
 
 }
 .list-head{
@@ -595,7 +595,7 @@ fieldset{
 
 .container {  
   display:flex;
-  flex-flow:column wrap;
+  flex-flow:row wrap;
   width:90vw;
   overflow:hidden;
   margin-left:auto;
@@ -608,11 +608,13 @@ fieldset{
 }
 
 .students1 { 
+  display:flex;
   grid-area: students1;
   justify-self:auto;
 }
 
-.students2 { 
+.students2 {
+  display:flex; 
   grid-area: students2;
   justify-self:auto;
 }
@@ -620,13 +622,13 @@ fieldset{
 .joefield {
   grid-area: joefield;
   justify-self: auto;
-  width:fit-content;
+  width:min-content;
+  max-width:45vw;
 }
 .eos {
   grid-area:studio;
   justify-self:auto;
-  max-width:740px;
-  min-width:70vw;
+  width:min-content;
   margin-left:auto;
   margin-right:auto;
 }
