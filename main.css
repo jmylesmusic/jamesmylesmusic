@@ -755,7 +755,19 @@ iframe {
 
 .recordings-container{
   display:block;
-  width:75%
+  width:100vw;
   margin-left:auto;
   margin-right:auto;
+}
+.recordings-footer{
+  font-size: 10px; 
+  color:var(--white); 
+  line-break: anywhere;
+  word-break: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  font-family:var(--font);
+  font-weight: 200;
+  text-decoration:none;
 }
