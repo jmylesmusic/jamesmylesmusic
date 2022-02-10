@@ -561,6 +561,8 @@ fieldset{
   font-weight: 400;
   font-size:25px;
   padding-left:15px;
+  margin-left:auto;
+  margin-right:auto;
 
 }
 .list-head{
@@ -597,7 +599,6 @@ fieldset{
   display:flex;
   flex-flow:row wrap;
   width:90vw;
-  overflow:hidden;
   margin-left:auto;
   margin-right:auto;
 }
@@ -614,21 +615,20 @@ fieldset{
 }
 
 .students2 {
-  display:flex; 
+  display:flexbox; 
   grid-area: students2;
   justify-self:auto;
 }
 
 .joefield {
-  grid-area: joefield;
+  display:flexbox;
   justify-self: auto;
-  width:min-content;
   max-width:45vw;
 }
 .eos {
-  grid-area:studio;
+  position:relative;
+  display:flexbox;
   justify-self:auto;
-  width:min-content;
   margin-left:auto;
   margin-right:auto;
 }
