@@ -454,7 +454,6 @@ footer{
 }
 
 figure{
-  float:auto;
   text-align: center;
   font-size: 14px;
   text-indent: 0;
@@ -468,7 +467,7 @@ figure{
 .joefield {
   display:flex;
   margin:1em;
-  justify-self:auto;
+  justify-self:center;
   max-height:400px;
   max-width:min(80vw,600px);
   margin-left:auto;
@@ -482,10 +481,11 @@ figure{
   margin-left: auto;
   margin-right: auto;
 }
+
 .eos {
   display:flex;
   margin:1em;
-  justify-self:auto;
+  justify-self:center;
   max-width:min(80vw,600px);
   margin-left:auto;
   margin-right:auto;
@@ -622,6 +622,10 @@ fieldset{
   margin-top:140px;
 }
 
+.container > * {
+  flex: 1 auto;
+}
+
 .about-me { 
   display:flexbox;
   justify-self:auto;
@@ -735,10 +739,10 @@ border: 1px solid var(--white);
 }
 
 .content-head{
+  display:flex;
   color:var(--white);
   font-family: var(--font);
   font-size:30px;
-  margin-top:115px;
   padding:15px 0px;
   font-weight:100;
   text-transform:capitalize;
