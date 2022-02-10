@@ -460,7 +460,7 @@ figure{
   margin-block-end: 1em;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  float:center;
+  float:auto;
   text-align: center;
   font-size: 14px;
   text-indent: 0;
@@ -468,20 +468,6 @@ figure{
   padding: 1em;
   margin-bottom:50px;
   background: var(--black);
-}
-
-#bio-img{
-  display:block;
-  max-width:350px;  
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#studio{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width:min(75vw,540px);
 }
 
 .img-caption{
@@ -600,10 +586,11 @@ fieldset{
 
 .container {  
   display:flex;
-  flex-flow:row wrap;
+  flex-flow:;
   width:90vw;
   margin-left:auto;
   margin-right:auto;
+  margin-top:140px;
 }
 
 .about-me { 
@@ -632,6 +619,13 @@ fieldset{
   margin-left:auto;
   margin-right:auto;
 }
+
+#bio-img{
+  display:block;
+  max-width:350px;  
+  margin-left: auto;
+  margin-right: auto;
+}
 .eos {
   margin:1em;
   display:flexbox;
@@ -641,6 +635,12 @@ fieldset{
   margin-left:auto;
   margin-right:auto;
 }
+
+#studio{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:min(75vw,540px);
 
 .indent {
   position:relative;
