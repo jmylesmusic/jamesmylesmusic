@@ -469,7 +469,7 @@ figure{
 
 #bio-img{
   display:block;
-  max-height:500px;  
+  max-width:350px;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -558,7 +558,7 @@ fieldset{
 .big-heading{
   color:var(--white);
   font-family:var(--font);
-  font-weight: 400;
+  font-weight: 300;
   font-size:25px;
   padding-left:15px;
   margin-left:auto;
@@ -573,6 +573,7 @@ fieldset{
   padding-left:15px;
   padding-bottom:20px;
   padding-top: 25px;
+  font-
 }
 .paragraph{
   font-weight:300;
@@ -591,8 +592,8 @@ fieldset{
   width:100%;
   font-weight:300;
   font-size:14px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .container {  
@@ -611,6 +612,7 @@ fieldset{
 
 .students1 { 
   display:flexbox;
+  max-width:40vw;
   padding-inline: 10px;
   justify-self:auto;
 }
@@ -624,7 +626,7 @@ fieldset{
 .joefield {
   display:flexbox;
   justify-self: auto;
-  max-width:45vw;
+  max-width:400px;
   padding-inline: 10px;
   margin-left:auto;
   margin-right:auto;
