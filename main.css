@@ -471,16 +471,17 @@ figure{
 .joefield {
   display:flexbox;
   justify-self: auto;
-  width:max-content;
-  max-height:400px;
+  max-width:400px;
+  height:110%;
   padding-inline: 10px;
   margin-left:auto;
   margin-right:auto;
 }
 
 #bio-img{
-  display:inherit;
-  height:360px;
+  display:inline-flexbox;
+  max-width:95%;
+  max-height:95%;
   margin-left: auto;
   margin-right: auto;
 }
