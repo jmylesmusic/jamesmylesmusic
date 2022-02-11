@@ -753,7 +753,8 @@ hr {
   margin-right:auto;
   position:relative;
   overflow:auto;
-  width:92%;
+  min-width:75%;
+  max-width:800px;
 }
 
 iframe {
