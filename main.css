@@ -799,3 +799,10 @@ iframe {
   margin-left:auto;
   margin-right:auto;
 }
+
+.form-group{
+display:flexbox;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
