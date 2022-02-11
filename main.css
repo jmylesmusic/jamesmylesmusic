@@ -630,7 +630,6 @@ fieldset{
 .about-me { 
   display:flexbox;
   justify-self:auto;
-  margin:1em;
 }
 
 .students1 { 
@@ -749,14 +748,14 @@ border: 1px solid var(--white);
 
 hr {
   display:block;
-  align-self:center;
+  align-self:left;
   margin-left:auto;
   margin-right:auto;
   position:relative;
   overflow:auto;
-  max-width:800px;
-  min-width:75%;
+  width:92%;
 }
+
 iframe {
   padding-top:50px;
   margin-left:auto;
@@ -769,6 +768,7 @@ iframe {
   margin-left:auto;
   margin-right:auto;
 }
+
 .recordings-footer{
   font-size: 10px; 
   color:var(--white); 
