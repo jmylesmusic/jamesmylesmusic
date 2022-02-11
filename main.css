@@ -613,8 +613,7 @@ fieldset{
   width:100%;
   font-weight:300;
   font-size:14px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding:10px 15px;
 }
 
 .container {  
@@ -702,6 +701,18 @@ table{
   border: 1px solid var(--white);
 }
 
+.table{
+  table-layout:fixed;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid var(--white);
+}
+
+
 th,td{
 border: 1px solid var(--white);
 }
@@ -727,7 +738,7 @@ border: 1px solid var(--white);
   font-family:var(--font);
 }
 
-#minutes{
+.minutes{
   width: 100%;
   }
 
