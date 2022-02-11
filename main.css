@@ -584,13 +584,17 @@ fieldset{
 }
 .list-head{
   font-family:var(--font);
-  font-size:18px;
+  font-size:20px;
   color:var(--white);
-  font-weight:600;
+  font-weight:500;
   padding-left:15px;
-  padding-bottom:20px;
   padding-top: 25px;
   text-decoration: underline;
+  text-align: justify;
+  min-width:75%;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
 }
 .paragraph{
   font-weight:300;
