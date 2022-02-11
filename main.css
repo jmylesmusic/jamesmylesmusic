@@ -461,13 +461,13 @@ figure{
   border: thin var(--grey) solid;
   padding: 1em;
   background: var(--black);
-
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .joefield {
   display:flex;
   margin:1em;
-  justify-self:center;
   max-height:400px;
   max-width:min(80vw,600px);
   margin-left:auto;
