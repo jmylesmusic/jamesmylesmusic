@@ -460,7 +460,6 @@ figure{
   text-indent: 0;
   border: thin var(--grey) solid;
   padding: 1em;
-  margin-bottom:50px;
   background: var(--black);
 
 }
