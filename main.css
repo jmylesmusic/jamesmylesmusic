@@ -23,7 +23,6 @@ html {
 
 .header{
   position:absolute;
-  animation:none !important;
   top:0;
   background-color: var(--red);
   width: 100%;
@@ -702,14 +701,15 @@ table{
 }
 
 .table{
+  margin-top:20px;
   table-layout:fixed;
   width:90%;
-  margin-left:5%;
-  margin-right:5%;
+  margin-left:auto;
+  margin-right:auto;
   font-size: 20px;
   text-align: center;
   border-collapse: collapse;
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
 }
 
 
