@@ -434,10 +434,6 @@ footer{
   color:var(--white);
   background: var(--darkgrey);
 }
-#form-button:hover{
-  color:var(--red);
-  background:var(--white);
-}
 
 .list{
   font-family:var(--font);
