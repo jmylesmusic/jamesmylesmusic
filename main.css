@@ -436,6 +436,12 @@ footer{
   border-color:var(--grey);
   text-indent:4px;
 }
+.radio{
+  display:block;
+  margin-left:20px;
+  margin-right:5px;
+}
+
 .form-button{
   display:block;
   width:125px;
