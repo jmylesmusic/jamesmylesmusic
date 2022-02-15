@@ -429,12 +429,10 @@ footer{
   border-color:var(--black);
   text-indent:4px;
 }
-#form-button{
-  margin-top:15px;
+.form-button{
+  margin:15px;
   color:var(--white);
   background: var(--darkgrey);
-  border-radius: .5rem;
-  height:40px;
 }
 #form-button:hover{
   color:var(--red);
