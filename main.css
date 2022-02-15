@@ -417,21 +417,24 @@ footer{
   font-style:italic;
   display:block;
   font-family:var(--font);
-  color:var(--black);
+  color:var(--darkgrey);
   font-size:14px;
-  font-style:bolder;
   margin-top:0.5rem;
 }
 .form-control{
   display:block;
+  width:95%;
   border-radius: .25rem;
+  margin-left:5px;
   height:25px;
   border-width: 0px 1px 1px 0px;
-  border-color:var(--black);
+  border-color:var(--grey);
   text-indent:4px;
 }
 .form-button{
-  margin:15px;
+  display:block;
+  width:125px;
+  margin:15px 0px;
   color:var(--white);
   background: var(--darkgrey);
 }
