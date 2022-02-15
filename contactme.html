@@ -90,16 +90,16 @@
             />
     </div>
     <div class="form-group">
-        <label class="name-label" for="dropdown">Which best describes the reason for contacting? *</label>
-        <select title="why" id="dropdown" class="form-control" required>
+        <label class="name-label" for="dropdown">Reason for contacting? *</label>
+        <select title="why" id="dropdown-main" class="form-control" required>
             <option disabled selected value>Reason for contacting?</option>
-            <option value="Student">Lesson Inquiry</option>
-            <option value="Performance">Performance Inquiry</option>
-            <option value="Composition">Composition Inquiry</option>
+            <option class="reason" value="Student">Lesson Inquiry</option>
+            <option class="reason" value="Performance">Performance Inquiry</option>
+            <option class="reason" value="Composition">Composition Inquiry</option>
         </select>
     </div>   
     <div class="form-group" required> 
-        <label>Would you like to recieve newsletters?</label>
+        <label>Would you like to recieve newsletters? *</label>
         <input 
             type="radio" 
             title="newsletter" 

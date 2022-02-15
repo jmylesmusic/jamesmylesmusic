@@ -414,12 +414,17 @@ footer{
 }
 
 #dropdown-main{
+  display:inline-block;
   font-style:italic;
-  display:block;
   font-family:var(--font);
-  color:var(--darkgrey);
-  font-size:14px;
+  color:var(--grey);
+  font-size:12px;
   margin-top:0.5rem;
+}
+.reason{
+  font-style:normal;
+  color:var(--black);
+  font-size:12px;
 }
 .form-control{
   display:block;
