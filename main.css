@@ -437,8 +437,7 @@ footer{
   text-indent:4px;
 }
 .radio{
-  display:block;
-  margin-left:20px;
+  margin-top:5px;
   margin-right:5px;
 }
 
@@ -807,7 +806,7 @@ iframe {
 }
 
 .form-group{
-display:flex;
+display:block;
 width:100%;
 margin-left:auto;
 margin-right:auto;
