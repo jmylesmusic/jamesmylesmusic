@@ -27,3 +27,6 @@ function newFunction() {
     }
 }
 
+function runMyFunction() {
+    window.location.href ="thanks.html"
+}
