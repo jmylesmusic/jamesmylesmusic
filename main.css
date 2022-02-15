@@ -430,7 +430,8 @@ footer{
   display:block;
   width:95%;
   border-radius: .25rem;
-  margin-left:5px;
+  margin-left:0px;
+  margin-top:2px;
   height:25px;
   border-width: 0px 1px 1px 0px;
   border-color:var(--grey);
@@ -438,7 +439,8 @@ footer{
 }
 .radio{
   margin-top:5px;
-  margin-right:5px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .form-button{
