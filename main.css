@@ -233,8 +233,8 @@ body{
   }
   
   .navbar{
-      margin-top:0;
-      left:0;
+    margin-top:-65px;
+    left:0;
   }
   
   .navbar-index{
@@ -260,14 +260,14 @@ body{
   .nav-menu.active {
     position:fixed;
     left:0;
-    top:64px;
+    top:65px;
     z-index:1;        
     transition: 1s;
   }   
   
   .nav-item {
-    margin: 2.5rem;
-    left:0;
+     margin: 2.5rem;
+     left:0;
   } 
   
   .hamburger {
