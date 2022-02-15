@@ -68,6 +68,7 @@ a {
 @keyframes foldIn {
   0% {
     margin-top:0px;
+    transform:translateX(100px);
     transform:rotate3d(0deg, 180deg, 180deg);
     transform:scale3d(1, 0.1, 0.1);
     height:5px;
