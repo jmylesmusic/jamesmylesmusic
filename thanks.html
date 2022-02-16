@@ -53,6 +53,18 @@
         <script src="main.js"></script>
     </header>
 <body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong></strong> 
+    </div>
+    
+    <script>
+      var alertList = document.querySelectorAll('.alert');
+      alertList.forEach(function (alert) {
+        new bootstrap.Alert(alert)
+      })
+    </script>
+    
 <div class="thanks">Unfortunately, this form doesn't work, at least not yet! If you would like to reach me, please email me at the following address, and I will reply as soon as possible! (This page will automatically return home in 10 seconds.)</div>
 <a href = "mailto: myles.james@gmail.com"><p2 class="email">myles.james@gmail.com</p2></a>
 </body>
