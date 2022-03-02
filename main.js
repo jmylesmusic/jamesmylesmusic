@@ -30,5 +30,3 @@ function newFunction() {
 function runMyFunction() {
     window.location.href ="thanks.html"
 }
-
-let goldText = document.querySelectorAll("1st Place");
